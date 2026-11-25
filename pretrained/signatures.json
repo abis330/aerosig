@@ -1,0 +1,169 @@
+{
+  "z_profile": {
+    "accuracy": 0.938,
+    "macro_f1": 0.936
+  },
+  "ssl_embedding": {
+    "accuracy": 0.928,
+    "macro_f1": 0.93
+  },
+  "combined": {
+    "accuracy": 0.948,
+    "macro_f1": 0.945
+  },
+  "confusion": {
+    "labels": [
+      "battery_degradation",
+      "elevator_stuck",
+      "generator_dropout",
+      "gnss_jamming",
+      "gnss_spoofing",
+      "imu_vibration",
+      "motor_failure",
+      "pitot_blockage"
+    ],
+    "matrix": [
+      [
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        14,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12
+      ]
+    ]
+  },
+  "unsupervised_ari_library": 0.668,
+  "n_library": 103,
+  "n_test": 97,
+  "signature_cards": {
+    "battery_degradation": {
+      "batt_v": 2.6,
+      "ekf_pos_innov_m": 0.8,
+      "ekf_hacc_m": 0.7,
+      "ekf_vel_innov_mps": 0.7,
+      "gnss_hdop": 0.7
+    },
+    "elevator_stuck": {
+      "elevator_cmd_deg": 2.2,
+      "roll_deg": 1.3,
+      "ekf_pos_innov_m": 0.8,
+      "ekf_vel_innov_mps": 0.7,
+      "ekf_hacc_m": 0.7
+    },
+    "generator_dropout": {
+      "gen_kw": 5.0,
+      "batt_v": 1.3,
+      "batt_a": 1.2,
+      "ekf_pos_innov_m": 0.8,
+      "ekf_hacc_m": 0.7
+    },
+    "gnss_jamming": {
+      "ekf_hacc_m": 96.0,
+      "gnss_hdop": 84.8,
+      "gnss_nsat": 28.9,
+      "r_dps": 4.4,
+      "roll_deg": 3.4
+    },
+    "gnss_spoofing": {
+      "ekf_pos_innov_m": 101.1,
+      "ekf_vel_innov_mps": 81.1,
+      "r_dps": 4.9,
+      "roll_deg": 4.2,
+      "gnss_nsat": 2.9
+    },
+    "imu_vibration": {
+      "vibe_mps2": 101.4,
+      "ax_mps2": 4.4,
+      "az_mps2": 3.6,
+      "roll_deg": 3.2,
+      "r_dps": 3.1
+    },
+    "motor_failure": {
+      "vibe_mps2": 11.9,
+      "motor1_rpm": 7.7,
+      "motor2_rpm": 6.7,
+      "motor3_rpm": 2.1,
+      "ax_mps2": 1.0
+    },
+    "pitot_blockage": {
+      "airspeed_mps": 11.9,
+      "throttle": 1.7,
+      "motor2_rpm": 1.6,
+      "motor4_rpm": 1.6,
+      "motor1_rpm": 1.5
+    }
+  }
+}

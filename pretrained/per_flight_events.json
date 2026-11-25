@@ -1,0 +1,5374 @@
+{
+ "FLT-00001": {
+  "results": [
+   {
+    "fault": "generator_dropout",
+    "onset": 155.2,
+    "detected": true,
+    "latency_s": 7.900000000000006,
+    "flight_id": "FLT-00001"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 147.2,
+    "t_detect": 163.1,
+    "t_end": 207.9,
+    "peak_score": 8.110748427232961,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 9.33,
+     "batt_v": 3.98,
+     "batt_a": 2.32,
+     "vz_mps": 0.91,
+     "ekf_hacc_m": 0.85
+    }
+   },
+   {
+    "t_start": 236.8,
+    "t_detect": 252.7,
+    "t_end": 300.7,
+    "peak_score": 3.975000817349155,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 3.9,
+     "roll_deg": 3.15,
+     "r_dps": 1.95,
+     "batt_v": 1.57,
+     "batt_a": 1.35
+    }
+   },
+   {
+    "t_start": 300.8,
+    "t_detect": 316.7,
+    "t_end": 319.9,
+    "peak_score": 2.7609926011944443,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 3.7,
+     "batt_v": 1.75,
+     "batt_a": 0.8,
+     "ekf_pos_innov_m": 0.78,
+     "gnss_hdop": 0.77
+    }
+   },
+   {
+    "t_start": 323.2,
+    "t_detect": 339.1,
+    "t_end": 351.9,
+    "peak_score": 3.593453523747994,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 4.07,
+     "batt_v": 2.28,
+     "batt_a": 1.15,
+     "roll_deg": 0.95,
+     "ekf_pos_innov_m": 0.88
+    }
+   },
+   {
+    "t_start": 348.8,
+    "t_detect": 364.7,
+    "t_end": 470.3,
+    "peak_score": 4.03097635448892,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 3.59,
+     "batt_v": 2.36,
+     "roll_deg": 1.03,
+     "batt_a": 0.87,
+     "ekf_pos_innov_m": 0.85
+    }
+   }
+  ]
+ },
+ "FLT-00002": {
+  "results": [
+   {
+    "fault": "battery_degradation",
+    "onset": 125.1,
+    "detected": true,
+    "latency_s": 12.400000000000006,
+    "flight_id": "FLT-00002"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 121.6,
+    "t_detect": 137.5,
+    "t_end": 204.7,
+    "peak_score": 5.712369991274928,
+    "phase_at_detect": "climb",
+    "top_channels": {
+     "batt_v": 7.86,
+     "ekf_pos_innov_m": 0.79,
+     "ekf_hacc_m": 0.75,
+     "gnss_hdop": 0.75,
+     "ekf_vel_innov_mps": 0.71
+    }
+   }
+  ]
+ },
+ "FLT-00003": {
+  "results": [
+   {
+    "fault": "elevator_stuck",
+    "onset": 372.8,
+    "detected": true,
+    "latency_s": 20.69999999999999,
+    "flight_id": "FLT-00003"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 377.6,
+    "t_detect": 393.5,
+    "t_end": 393.5,
+    "peak_score": 2.871030535622897,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 3.63,
+     "roll_deg": 2.03,
+     "ekf_vel_innov_mps": 0.81,
+     "ekf_pos_innov_m": 0.8,
+     "ekf_hacc_m": 0.68
+    }
+   },
+   {
+    "t_start": 425.6,
+    "t_detect": 441.5,
+    "t_end": 441.5,
+    "peak_score": 3.2908440067469167,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "roll_deg": 3.55,
+     "elevator_cmd_deg": 2.76,
+     "ekf_pos_innov_m": 0.81,
+     "ekf_hacc_m": 0.78,
+     "gnss_hdop": 0.75
+    }
+   },
+   {
+    "t_start": 457.6,
+    "t_detect": 473.5,
+    "t_end": 473.5,
+    "peak_score": 2.77216655144548,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 3.22,
+     "roll_deg": 2.22,
+     "ekf_pos_innov_m": 0.84,
+     "ekf_vel_innov_mps": 0.81,
+     "ekf_hacc_m": 0.74
+    }
+   },
+   {
+    "t_start": 486.4,
+    "t_detect": 502.3,
+    "t_end": 527.9,
+    "peak_score": 7.257706787830843,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 5.99,
+     "roll_deg": 1.85,
+     "ekf_pos_innov_m": 0.92,
+     "ekf_hacc_m": 0.91,
+     "ekf_vel_innov_mps": 0.69
+    }
+   },
+   {
+    "t_start": 531.2,
+    "t_detect": 547.1,
+    "t_end": 559.9,
+    "peak_score": 7.530285159291667,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.58,
+     "roll_deg": 1.86,
+     "gen_kw": 1.31,
+     "pitch_deg": 0.86,
+     "ekf_pos_innov_m": 0.78
+    }
+   },
+   {
+    "t_start": 563.2,
+    "t_detect": 579.1,
+    "t_end": 591.9,
+    "peak_score": 7.0451498218662465,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 8.98,
+     "roll_deg": 2.35,
+     "ekf_pos_innov_m": 0.78,
+     "pitch_deg": 0.78,
+     "ekf_vel_innov_mps": 0.75
+    }
+   },
+   {
+    "t_start": 595.2,
+    "t_detect": 611.1,
+    "t_end": 623.9,
+    "peak_score": 7.700581925118065,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.01,
+     "roll_deg": 2.7,
+     "gen_kw": 0.86,
+     "pitch_deg": 0.79,
+     "ekf_pos_innov_m": 0.78
+    }
+   },
+   {
+    "t_start": 627.2,
+    "t_detect": 643.1,
+    "t_end": 655.9,
+    "peak_score": 8.00254703678962,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.8,
+     "roll_deg": 2.01,
+     "pitch_deg": 1.0,
+     "ekf_hacc_m": 0.79,
+     "ekf_vel_innov_mps": 0.79
+    }
+   },
+   {
+    "t_start": 652.8,
+    "t_detect": 668.7,
+    "t_end": 748.7,
+    "peak_score": 13.276251759202475,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "elevator_cmd_deg": 11.86,
+     "pitch_deg": 4.78,
+     "roll_deg": 3.72,
+     "r_dps": 2.33,
+     "q_dps": 1.17
+    }
+   }
+  ]
+ },
+ "FLT-00004": {
+  "results": [
+   {
+    "fault": "gnss_spoofing",
+    "onset": 431.9,
+    "detected": true,
+    "latency_s": 6.400000000000034,
+    "flight_id": "FLT-00004"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 422.4,
+    "t_detect": 438.3,
+    "t_end": 649.5,
+    "peak_score": 113.08771941365808,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_vel_innov_mps": 57.93,
+     "ekf_pos_innov_m": 21.58,
+     "roll_deg": 3.19,
+     "r_dps": 2.98,
+     "ekf_hacc_m": 0.82
+    }
+   }
+  ]
+ },
+ "FLT-00011": {
+  "results": [
+   {
+    "fault": "generator_dropout",
+    "onset": 601.3,
+    "detected": true,
+    "latency_s": 112.20000000000005,
+    "flight_id": "FLT-00011"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 697.6,
+    "t_detect": 713.5,
+    "t_end": 719.9,
+    "peak_score": 3.0224193535301414,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 3.01,
+     "roll_deg": 2.59,
+     "batt_v": 1.95,
+     "r_dps": 1.87,
+     "batt_a": 1.31
+    }
+   }
+  ]
+ },
+ "FLT-00013": {
+  "results": [
+   {
+    "fault": "gnss_spoofing",
+    "onset": 545.0,
+    "detected": true,
+    "latency_s": 5.2999999999999545,
+    "flight_id": "FLT-00013"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 534.4,
+    "t_detect": 550.3,
+    "t_end": 831.9,
+    "peak_score": 95.63742495570293,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_vel_innov_mps": 31.44,
+     "ekf_pos_innov_m": 12.01,
+     "r_dps": 2.67,
+     "roll_deg": 2.52,
+     "gnss_nsat": 0.85
+    }
+   }
+  ]
+ },
+ "FLT-00014": {
+  "results": [
+   {
+    "fault": "gnss_jamming",
+    "onset": 299.8,
+    "detected": true,
+    "latency_s": 4.099999999999966,
+    "flight_id": "FLT-00014"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 288.0,
+    "t_detect": 303.9,
+    "t_end": 415.9,
+    "peak_score": 106.3520572303054,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_hacc_m": 57.97,
+     "gnss_hdop": 55.52,
+     "gnss_nsat": 19.78,
+     "r_dps": 5.54,
+     "roll_deg": 4.67
+    }
+   }
+  ]
+ },
+ "FLT-00016": {
+  "results": [
+   {
+    "fault": "imu_vibration",
+    "onset": 271.5,
+    "detected": true,
+    "latency_s": 3.6000000000000227,
+    "flight_id": "FLT-00016"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 259.2,
+    "t_detect": 275.1,
+    "t_end": 582.3,
+    "peak_score": 82.61435209037336,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "vibe_mps2": 78.35,
+     "ax_mps2": 3.66,
+     "roll_deg": 2.52,
+     "r_dps": 2.49,
+     "az_mps2": 2.37
+    }
+   }
+  ]
+ },
+ "FLT-00017": {
+  "results": [
+   {
+    "fault": "imu_vibration",
+    "onset": 272.9,
+    "detected": true,
+    "latency_s": 5.400000000000034,
+    "flight_id": "FLT-00017"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 262.4,
+    "t_detect": 278.3,
+    "t_end": 790.3,
+    "peak_score": 35.008770089623425,
+    "phase_at_detect": "climb",
+    "top_channels": {
+     "vibe_mps2": 29.39,
+     "roll_deg": 0.99,
+     "az_mps2": 0.97,
+     "ax_mps2": 0.97,
+     "vz_mps": 0.96
+    }
+   }
+  ]
+ },
+ "FLT-00018": {
+  "results": [
+   {
+    "fault": "imu_vibration",
+    "onset": 455.3,
+    "detected": true,
+    "latency_s": 5.399999999999977,
+    "flight_id": "FLT-00018"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 444.8,
+    "t_detect": 460.7,
+    "t_end": 863.9,
+    "peak_score": 80.48271604242136,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "vibe_mps2": 92.81,
+     "ax_mps2": 4.06,
+     "az_mps2": 3.55,
+     "roll_deg": 1.78,
+     "r_dps": 1.58
+    }
+   }
+  ]
+ },
+ "FLT-00023": {
+  "results": [
+   {
+    "fault": "pitot_blockage",
+    "onset": 504.1,
+    "detected": true,
+    "latency_s": 11.0,
+    "flight_id": "FLT-00023"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 499.2,
+    "t_detect": 515.1,
+    "t_end": 803.1,
+    "peak_score": 17.3808731877046,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "throttle": 6.4,
+     "motor4_rpm": 5.87,
+     "motor2_rpm": 5.76,
+     "motor3_rpm": 5.63,
+     "motor1_rpm": 5.35
+    }
+   }
+  ]
+ },
+ "FLT-00026": {
+  "results": [
+   {
+    "fault": "battery_degradation",
+    "onset": 499.6,
+    "detected": false,
+    "latency_s": null,
+    "flight_id": "FLT-00026"
+   }
+  ],
+  "events": []
+ },
+ "FLT-00027": {
+  "results": [
+   {
+    "fault": "generator_dropout",
+    "onset": 470.2,
+    "detected": true,
+    "latency_s": 35.30000000000001,
+    "flight_id": "FLT-00027"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 489.6,
+    "t_detect": 505.5,
+    "t_end": 518.3,
+    "peak_score": 3.083470105982511,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 3.98,
+     "batt_a": 1.9,
+     "roll_deg": 1.53,
+     "batt_v": 1.42,
+     "ekf_pos_innov_m": 0.84
+    }
+   },
+   {
+    "t_start": 528.0,
+    "t_detect": 543.9,
+    "t_end": 543.9,
+    "peak_score": 2.74162837168925,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 3.83,
+     "batt_v": 1.63,
+     "batt_a": 1.62,
+     "roll_deg": 0.95,
+     "ekf_vel_innov_mps": 0.81
+    }
+   },
+   {
+    "t_start": 582.4,
+    "t_detect": 598.3,
+    "t_end": 630.3,
+    "peak_score": 3.8890685744455427,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 3.85,
+     "batt_v": 2.33,
+     "batt_a": 1.64,
+     "roll_deg": 1.18,
+     "ekf_pos_innov_m": 0.89
+    }
+   }
+  ]
+ },
+ "FLT-00030": {
+  "results": [
+   {
+    "fault": "battery_degradation",
+    "onset": 258.2,
+    "detected": false,
+    "latency_s": null,
+    "flight_id": "FLT-00030"
+   }
+  ],
+  "events": []
+ },
+ "FLT-00031": {
+  "results": [
+   {
+    "fault": "battery_degradation",
+    "onset": 310.5,
+    "detected": true,
+    "latency_s": 83.0,
+    "flight_id": "FLT-00031"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 377.6,
+    "t_detect": 393.5,
+    "t_end": 412.7,
+    "peak_score": 3.3793374902896995,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "batt_v": 4.04,
+     "r_dps": 2.01,
+     "ekf_vel_innov_mps": 0.86,
+     "ekf_pos_innov_m": 0.85,
+     "ekf_hacc_m": 0.66
+    }
+   },
+   {
+    "t_start": 409.6,
+    "t_detect": 425.5,
+    "t_end": 441.5,
+    "peak_score": 2.9574530381668485,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "batt_v": 3.97,
+     "r_dps": 1.73,
+     "ekf_pos_innov_m": 0.86,
+     "ekf_hacc_m": 0.83,
+     "gnss_nsat": 0.65
+    }
+   },
+   {
+    "t_start": 454.4,
+    "t_detect": 470.3,
+    "t_end": 473.5,
+    "peak_score": 2.7013832924364536,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "batt_v": 3.96,
+     "r_dps": 1.41,
+     "ekf_hacc_m": 0.86,
+     "ekf_vel_innov_mps": 0.73,
+     "gnss_nsat": 0.66
+    }
+   },
+   {
+    "t_start": 476.8,
+    "t_detect": 492.7,
+    "t_end": 495.9,
+    "peak_score": 2.847170849267921,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "batt_v": 3.99,
+     "r_dps": 1.57,
+     "ekf_vel_innov_mps": 0.72,
+     "ekf_hacc_m": 0.7,
+     "ekf_pos_innov_m": 0.65
+    }
+   },
+   {
+    "t_start": 499.2,
+    "t_detect": 515.1,
+    "t_end": 531.1,
+    "peak_score": 2.9040611052035477,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "batt_v": 3.87,
+     "r_dps": 1.77,
+     "ekf_pos_innov_m": 0.86,
+     "gnss_hdop": 0.76,
+     "ekf_vel_innov_mps": 0.75
+    }
+   },
+   {
+    "t_start": 563.2,
+    "t_detect": 579.1,
+    "t_end": 582.3,
+    "peak_score": 2.954381168900701,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "batt_v": 3.93,
+     "r_dps": 1.74,
+     "ekf_vel_innov_mps": 0.86,
+     "ekf_pos_innov_m": 0.78,
+     "ekf_hacc_m": 0.68
+    }
+   },
+   {
+    "t_start": 588.8,
+    "t_detect": 604.7,
+    "t_end": 803.1,
+    "peak_score": 5.097866371199672,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "batt_v": 4.68,
+     "r_dps": 1.9,
+     "roll_deg": 1.55,
+     "ekf_pos_innov_m": 0.94,
+     "ekf_vel_innov_mps": 0.74
+    }
+   }
+  ]
+ },
+ "FLT-00040": {
+  "results": [
+   {
+    "fault": "elevator_stuck",
+    "onset": 286.9,
+    "detected": true,
+    "latency_s": 164.20000000000005,
+    "flight_id": "FLT-00040"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 435.2,
+    "t_detect": 451.1,
+    "t_end": 451.1,
+    "peak_score": 2.8361987084655644,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "roll_deg": 2.81,
+     "elevator_cmd_deg": 2.75,
+     "ekf_hacc_m": 0.91,
+     "gnss_hdop": 0.78,
+     "ekf_pos_innov_m": 0.77
+    }
+   },
+   {
+    "t_start": 467.2,
+    "t_detect": 483.1,
+    "t_end": 486.3,
+    "peak_score": 3.617603015794688,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "roll_deg": 3.95,
+     "elevator_cmd_deg": 2.35,
+     "ekf_pos_innov_m": 0.85,
+     "ekf_vel_innov_mps": 0.75,
+     "ekf_hacc_m": 0.66
+    }
+   },
+   {
+    "t_start": 617.6,
+    "t_detect": 633.5,
+    "t_end": 633.5,
+    "peak_score": 3.051866494843579,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "elevator_cmd_deg": 4.09,
+     "gen_kw": 1.63,
+     "vibe_mps2": 1.63,
+     "motor2_rpm": 1.28,
+     "motor1_rpm": 1.26
+    }
+   },
+   {
+    "t_start": 636.8,
+    "t_detect": 652.7,
+    "t_end": 665.5,
+    "peak_score": 7.245421751987746,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.28,
+     "roll_deg": 1.14,
+     "pitch_deg": 1.11,
+     "ekf_pos_innov_m": 0.91,
+     "gen_kw": 0.88
+    }
+   },
+   {
+    "t_start": 668.8,
+    "t_detect": 684.7,
+    "t_end": 697.5,
+    "peak_score": 7.181837287680814,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.69,
+     "roll_deg": 1.99,
+     "gen_kw": 0.97,
+     "pitch_deg": 0.78,
+     "ekf_pos_innov_m": 0.75
+    }
+   },
+   {
+    "t_start": 700.8,
+    "t_detect": 716.7,
+    "t_end": 729.5,
+    "peak_score": 7.5867169622275235,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.32,
+     "roll_deg": 2.09,
+     "gen_kw": 1.17,
+     "pitch_deg": 0.75,
+     "ekf_hacc_m": 0.72
+    }
+   },
+   {
+    "t_start": 732.8,
+    "t_detect": 748.7,
+    "t_end": 761.5,
+    "peak_score": 7.425286706506597,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.27,
+     "roll_deg": 1.97,
+     "gen_kw": 0.9,
+     "gnss_nsat": 0.88,
+     "ekf_pos_innov_m": 0.86
+    }
+   },
+   {
+    "t_start": 764.8,
+    "t_detect": 780.7,
+    "t_end": 793.5,
+    "peak_score": 7.895133627781377,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.6,
+     "roll_deg": 2.01,
+     "gen_kw": 0.98,
+     "ekf_pos_innov_m": 0.84,
+     "gnss_nsat": 0.77
+    }
+   },
+   {
+    "t_start": 796.8,
+    "t_detect": 812.7,
+    "t_end": 825.5,
+    "peak_score": 7.700552959118763,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.56,
+     "roll_deg": 2.66,
+     "ekf_pos_innov_m": 0.91,
+     "vz_mps": 0.87,
+     "ekf_vel_innov_mps": 0.76
+    }
+   },
+   {
+    "t_start": 828.8,
+    "t_detect": 844.7,
+    "t_end": 857.5,
+    "peak_score": 8.098735998084456,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.47,
+     "roll_deg": 2.52,
+     "ekf_vel_innov_mps": 0.82,
+     "gen_kw": 0.78,
+     "ekf_pos_innov_m": 0.76
+    }
+   },
+   {
+    "t_start": 860.8,
+    "t_detect": 876.7,
+    "t_end": 889.5,
+    "peak_score": 7.905972206532198,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.87,
+     "roll_deg": 1.86,
+     "gen_kw": 0.91,
+     "gnss_hdop": 0.84,
+     "pitch_deg": 0.84
+    }
+   },
+   {
+    "t_start": 892.8,
+    "t_detect": 908.7,
+    "t_end": 1004.7,
+    "peak_score": 13.66961624805804,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 11.67,
+     "pitch_deg": 4.09,
+     "r_dps": 2.98,
+     "q_dps": 1.5,
+     "roll_deg": 1.21
+    }
+   }
+  ]
+ },
+ "FLT-00041": {
+  "results": [
+   {
+    "fault": "elevator_stuck",
+    "onset": 361.1,
+    "detected": true,
+    "latency_s": 35.599999999999966,
+    "flight_id": "FLT-00041"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 380.8,
+    "t_detect": 396.7,
+    "t_end": 396.7,
+    "peak_score": 2.8481956209549786,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "roll_deg": 3.14,
+     "elevator_cmd_deg": 2.38,
+     "ekf_pos_innov_m": 0.78,
+     "ekf_hacc_m": 0.73,
+     "ekf_vel_innov_mps": 0.71
+    }
+   },
+   {
+    "t_start": 476.8,
+    "t_detect": 492.7,
+    "t_end": 492.7,
+    "peak_score": 3.7300807998472765,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "roll_deg": 4.2,
+     "elevator_cmd_deg": 2.34,
+     "ekf_hacc_m": 0.83,
+     "ekf_vel_innov_mps": 0.77,
+     "ekf_pos_innov_m": 0.76
+    }
+   },
+   {
+    "t_start": 550.4,
+    "t_detect": 566.3,
+    "t_end": 582.3,
+    "peak_score": 6.7748402926190465,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 7.91,
+     "roll_deg": 1.85,
+     "r_dps": 1.62,
+     "vz_mps": 1.55,
+     "alt_rel_m": 1.07
+    }
+   },
+   {
+    "t_start": 582.4,
+    "t_detect": 598.3,
+    "t_end": 611.1,
+    "peak_score": 7.769686038356943,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.37,
+     "roll_deg": 2.54,
+     "alt_rel_m": 0.91,
+     "pitch_deg": 0.9,
+     "ekf_hacc_m": 0.9
+    }
+   },
+   {
+    "t_start": 614.4,
+    "t_detect": 630.3,
+    "t_end": 643.1,
+    "peak_score": 7.525123755860578,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.28,
+     "roll_deg": 2.65,
+     "pitch_deg": 0.85,
+     "ekf_vel_innov_mps": 0.75,
+     "ekf_pos_innov_m": 0.72
+    }
+   },
+   {
+    "t_start": 646.4,
+    "t_detect": 662.3,
+    "t_end": 675.1,
+    "peak_score": 7.849175308540493,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.15,
+     "roll_deg": 2.27,
+     "batt_v": 0.87,
+     "ekf_pos_innov_m": 0.84,
+     "pitch_deg": 0.82
+    }
+   },
+   {
+    "t_start": 678.4,
+    "t_detect": 694.3,
+    "t_end": 707.1,
+    "peak_score": 7.569886712059067,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.15,
+     "roll_deg": 2.64,
+     "ekf_vel_innov_mps": 0.85,
+     "batt_v": 0.74,
+     "vz_mps": 0.72
+    }
+   },
+   {
+    "t_start": 710.4,
+    "t_detect": 726.3,
+    "t_end": 739.1,
+    "peak_score": 7.369493781233869,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.18,
+     "roll_deg": 1.65,
+     "batt_v": 1.38,
+     "ekf_pos_innov_m": 0.97,
+     "gen_kw": 0.87
+    }
+   },
+   {
+    "t_start": 742.4,
+    "t_detect": 758.3,
+    "t_end": 771.1,
+    "peak_score": 8.108422563302236,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.85,
+     "roll_deg": 2.59,
+     "batt_v": 1.1,
+     "ekf_pos_innov_m": 0.75,
+     "pitch_deg": 0.74
+    }
+   },
+   {
+    "t_start": 774.4,
+    "t_detect": 790.3,
+    "t_end": 806.3,
+    "peak_score": 8.295135986309203,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 11.18,
+     "roll_deg": 1.9,
+     "batt_v": 1.72,
+     "ekf_vel_innov_mps": 1.05,
+     "gen_kw": 0.84
+    }
+   },
+   {
+    "t_start": 806.4,
+    "t_detect": 822.3,
+    "t_end": 835.1,
+    "peak_score": 8.403146060163705,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.88,
+     "roll_deg": 2.43,
+     "batt_v": 1.63,
+     "gen_kw": 0.86,
+     "ekf_vel_innov_mps": 0.81
+    }
+   },
+   {
+    "t_start": 838.4,
+    "t_detect": 854.3,
+    "t_end": 953.5,
+    "peak_score": 13.65630323972228,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.31,
+     "roll_deg": 3.03,
+     "batt_v": 1.04,
+     "vz_mps": 0.78,
+     "ekf_pos_innov_m": 0.7
+    }
+   }
+  ]
+ },
+ "FLT-00042": {
+  "results": [
+   {
+    "fault": "generator_dropout",
+    "onset": 342.7,
+    "detected": true,
+    "latency_s": 102.0,
+    "flight_id": "FLT-00042"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 428.8,
+    "t_detect": 444.7,
+    "t_end": 489.5,
+    "peak_score": 3.3510596839407922,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 4.22,
+     "batt_v": 1.97,
+     "roll_deg": 1.93,
+     "batt_a": 1.74,
+     "ekf_hacc_m": 0.79
+    }
+   },
+   {
+    "t_start": 508.8,
+    "t_detect": 524.7,
+    "t_end": 534.3,
+    "peak_score": 3.134046754981212,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 3.63,
+     "batt_v": 2.32,
+     "batt_a": 1.04,
+     "ekf_vel_innov_mps": 0.79,
+     "ekf_pos_innov_m": 0.77
+    }
+   },
+   {
+    "t_start": 620.8,
+    "t_detect": 636.7,
+    "t_end": 643.1,
+    "peak_score": 3.4260767946913004,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 3.25,
+     "batt_v": 3.05,
+     "roll_deg": 1.35,
+     "r_dps": 1.35,
+     "batt_a": 1.05
+    }
+   }
+  ]
+ },
+ "FLT-00043": {
+  "results": [
+   {
+    "fault": "pitot_blockage",
+    "onset": 492.0,
+    "detected": true,
+    "latency_s": 10.300000000000011,
+    "flight_id": "FLT-00043"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 486.4,
+    "t_detect": 502.3,
+    "t_end": 515.1,
+    "peak_score": 12.187316461000977,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "elevator_cmd_deg": 5.79,
+     "elevator_pos_deg": 5.24,
+     "gen_kw": 5.03,
+     "throttle": 3.75,
+     "motor2_rpm": 3.45
+    }
+   },
+   {
+    "t_start": 512.0,
+    "t_detect": 527.9,
+    "t_end": 713.5,
+    "peak_score": 17.516689476651404,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "airspeed_mps": 7.47,
+     "gnss_hdop": 0.94,
+     "ekf_pos_innov_m": 0.89,
+     "ekf_hacc_m": 0.75,
+     "ekf_vel_innov_mps": 0.6
+    }
+   }
+  ]
+ },
+ "FLT-00045": {
+  "results": [
+   {
+    "fault": "pitot_blockage",
+    "onset": 326.1,
+    "detected": true,
+    "latency_s": 9.799999999999955,
+    "flight_id": "FLT-00045"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 320.0,
+    "t_detect": 335.9,
+    "t_end": 351.9,
+    "peak_score": 9.939026710733106,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "elevator_cmd_deg": 6.12,
+     "elevator_pos_deg": 5.56,
+     "gen_kw": 3.03,
+     "throttle": 2.79,
+     "motor2_rpm": 2.6
+    }
+   },
+   {
+    "t_start": 348.8,
+    "t_detect": 364.7,
+    "t_end": 643.1,
+    "peak_score": 17.65529863749513,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "airspeed_mps": 7.81,
+     "ekf_vel_innov_mps": 0.89,
+     "ekf_hacc_m": 0.78,
+     "ekf_pos_innov_m": 0.75,
+     "gnss_hdop": 0.66
+    }
+   }
+  ]
+ },
+ "FLT-00051": {
+  "results": [
+   {
+    "fault": "gnss_spoofing",
+    "onset": 464.4,
+    "detected": true,
+    "latency_s": 5.900000000000034,
+    "flight_id": "FLT-00051"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 454.4,
+    "t_detect": 470.3,
+    "t_end": 687.9,
+    "peak_score": 129.63127285594032,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_vel_innov_mps": 67.57,
+     "ekf_pos_innov_m": 25.94,
+     "r_dps": 7.86,
+     "roll_deg": 7.49,
+     "ekf_hacc_m": 0.79
+    }
+   }
+  ]
+ },
+ "FLT-00054": {
+  "results": [
+   {
+    "fault": "motor_failure",
+    "onset": 468.3,
+    "detected": true,
+    "latency_s": 8.399999999999977,
+    "flight_id": "FLT-00054"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 460.8,
+    "t_detect": 476.7,
+    "t_end": 796.7,
+    "peak_score": 13.61269698687696,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "vibe_mps2": 10.29,
+     "motor4_rpm": 8.65,
+     "ekf_pos_innov_m": 0.79,
+     "gnss_hdop": 0.75,
+     "ekf_vel_innov_mps": 0.72
+    }
+   }
+  ]
+ },
+ "FLT-00055": {
+  "results": [
+   {
+    "fault": "imu_vibration",
+    "onset": 285.3,
+    "detected": true,
+    "latency_s": 5.800000000000011,
+    "flight_id": "FLT-00055"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 275.2,
+    "t_detect": 291.1,
+    "t_end": 604.7,
+    "peak_score": 89.31613969408386,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "vibe_mps2": 105.64,
+     "ax_mps2": 4.65,
+     "az_mps2": 3.71,
+     "roll_deg": 2.79,
+     "r_dps": 2.39
+    }
+   }
+  ]
+ },
+ "FLT-00059": {
+  "results": [
+   {
+    "fault": "battery_degradation",
+    "onset": 437.9,
+    "detected": true,
+    "latency_s": 163.60000000000002,
+    "flight_id": "FLT-00059"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 585.6,
+    "t_detect": 601.5,
+    "t_end": 607.9,
+    "peak_score": 2.874264817295053,
+    "phase_at_detect": "approach",
+    "top_channels": {
+     "batt_v": 4.73,
+     "ekf_pos_innov_m": 0.79,
+     "ekf_vel_innov_mps": 0.71,
+     "gnss_hdop": 0.7,
+     "ekf_hacc_m": 0.63
+    }
+   }
+  ]
+ },
+ "FLT-00068": {
+  "results": [
+   {
+    "fault": "pitot_blockage",
+    "onset": 181.6,
+    "detected": true,
+    "latency_s": 7.099999999999994,
+    "flight_id": "FLT-00068"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 172.8,
+    "t_detect": 188.7,
+    "t_end": 726.3,
+    "peak_score": 17.57754966620037,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "pitch_deg": 6.26,
+     "elevator_cmd_deg": 6.11,
+     "elevator_pos_deg": 5.26,
+     "q_dps": 4.0,
+     "motor2_rpm": 3.98
+    }
+   }
+  ]
+ },
+ "FLT-00072": {
+  "results": [
+   {
+    "fault": "elevator_stuck",
+    "onset": 279.6,
+    "detected": true,
+    "latency_s": 17.899999999999977,
+    "flight_id": "FLT-00072"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 281.6,
+    "t_detect": 297.5,
+    "t_end": 297.5,
+    "peak_score": 3.3268665171576144,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 3.49,
+     "roll_deg": 2.55,
+     "ekf_pos_innov_m": 0.74,
+     "groundspeed_mps": 0.74,
+     "ekf_vel_innov_mps": 0.69
+    }
+   },
+   {
+    "t_start": 364.8,
+    "t_detect": 380.7,
+    "t_end": 380.7,
+    "peak_score": 2.844489532689682,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "roll_deg": 2.93,
+     "elevator_cmd_deg": 2.72,
+     "ekf_vel_innov_mps": 0.86,
+     "ekf_pos_innov_m": 0.86,
+     "ekf_hacc_m": 0.85
+    }
+   },
+   {
+    "t_start": 531.2,
+    "t_detect": 547.1,
+    "t_end": 563.1,
+    "peak_score": 6.620220911781652,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.16,
+     "vz_mps": 0.91,
+     "pitch_deg": 0.83,
+     "ekf_pos_innov_m": 0.76,
+     "ekf_vel_innov_mps": 0.75
+    }
+   },
+   {
+    "t_start": 566.4,
+    "t_detect": 582.3,
+    "t_end": 595.1,
+    "peak_score": 7.171565081204442,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.19,
+     "roll_deg": 2.59,
+     "gen_kw": 1.45,
+     "pitch_deg": 0.89,
+     "ekf_pos_innov_m": 0.79
+    }
+   },
+   {
+    "t_start": 598.4,
+    "t_detect": 614.3,
+    "t_end": 627.1,
+    "peak_score": 7.4703509320565376,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.85,
+     "roll_deg": 2.03,
+     "gen_kw": 1.73,
+     "ekf_pos_innov_m": 0.83,
+     "pitch_deg": 0.81
+    }
+   },
+   {
+    "t_start": 630.4,
+    "t_detect": 646.3,
+    "t_end": 659.1,
+    "peak_score": 7.219585735665933,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.62,
+     "roll_deg": 2.22,
+     "gen_kw": 1.56,
+     "ekf_pos_innov_m": 1.01,
+     "ekf_vel_innov_mps": 0.73
+    }
+   },
+   {
+    "t_start": 662.4,
+    "t_detect": 678.3,
+    "t_end": 777.5,
+    "peak_score": 13.064913856238,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.81,
+     "roll_deg": 2.37,
+     "gen_kw": 1.28,
+     "ekf_pos_innov_m": 0.88,
+     "pitch_deg": 0.82
+    }
+   }
+  ]
+ },
+ "FLT-00073": {
+  "results": [
+   {
+    "fault": "gnss_jamming",
+    "onset": 218.6,
+    "detected": true,
+    "latency_s": 5.300000000000011,
+    "flight_id": "FLT-00073"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 208.0,
+    "t_detect": 223.9,
+    "t_end": 291.1,
+    "peak_score": 105.83404733967143,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_hacc_m": 67.03,
+     "gnss_hdop": 63.39,
+     "gnss_nsat": 21.71,
+     "r_dps": 3.48,
+     "roll_deg": 2.49
+    }
+   },
+   {
+    "t_start": 524.8,
+    "t_detect": 540.7,
+    "t_end": 540.7,
+    "peak_score": 2.9993706819904817,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "r_dps": 2.85,
+     "roll_deg": 2.8,
+     "ekf_pos_innov_m": 1.78,
+     "p_dps": 1.24,
+     "ax_mps2": 1.07
+    }
+   }
+  ]
+ },
+ "FLT-00074": {
+  "results": [
+   {
+    "fault": "gnss_spoofing",
+    "onset": 144.8,
+    "detected": true,
+    "latency_s": 5.5,
+    "flight_id": "FLT-00074"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 134.4,
+    "t_detect": 150.3,
+    "t_end": 767.9,
+    "peak_score": 116.08871696732248,
+    "phase_at_detect": "climb",
+    "top_channels": {
+     "ekf_vel_innov_mps": 55.13,
+     "ekf_pos_innov_m": 18.04,
+     "gnss_nsat": 1.53,
+     "gen_kw": 0.89,
+     "ekf_hacc_m": 0.75
+    }
+   }
+  ]
+ },
+ "FLT-00075": {
+  "results": [
+   {
+    "fault": "gnss_jamming",
+    "onset": 172.7,
+    "detected": true,
+    "latency_s": 6.400000000000006,
+    "flight_id": "FLT-00075"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 163.2,
+    "t_detect": 179.1,
+    "t_end": 310.3,
+    "peak_score": 106.67347939663763,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_hacc_m": 74.01,
+     "gnss_hdop": 62.44,
+     "gnss_nsat": 21.78,
+     "r_dps": 3.43,
+     "roll_deg": 2.34
+    }
+   }
+  ]
+ },
+ "FLT-00076": {
+  "results": [
+   {
+    "fault": "gnss_spoofing",
+    "onset": 102.6,
+    "detected": true,
+    "latency_s": 6.1000000000000085,
+    "flight_id": "FLT-00076"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 92.8,
+    "t_detect": 108.7,
+    "t_end": 700.7,
+    "peak_score": 92.53688463957658,
+    "phase_at_detect": "climb",
+    "top_channels": {
+     "ekf_vel_innov_mps": 25.49,
+     "ekf_pos_innov_m": 10.74,
+     "gen_kw": 0.94,
+     "gnss_nsat": 0.91,
+     "ekf_hacc_m": 0.82
+    }
+   }
+  ]
+ },
+ "FLT-00077": {
+  "results": [
+   {
+    "fault": "pitot_blockage",
+    "onset": 165.3,
+    "detected": true,
+    "latency_s": 10.599999999999994,
+    "flight_id": "FLT-00077"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 160.0,
+    "t_detect": 175.9,
+    "t_end": 543.9,
+    "peak_score": 16.904586796474476,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "motor4_rpm": 5.96,
+     "throttle": 5.89,
+     "motor2_rpm": 5.84,
+     "motor1_rpm": 5.8,
+     "motor3_rpm": 5.12
+    }
+   }
+  ]
+ },
+ "FLT-00084": {
+  "results": [
+   {
+    "fault": "pitot_blockage",
+    "onset": 200.7,
+    "detected": true,
+    "latency_s": 10.400000000000006,
+    "flight_id": "FLT-00084"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 195.2,
+    "t_detect": 211.1,
+    "t_end": 227.1,
+    "peak_score": 9.674274964422944,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "elevator_cmd_deg": 5.64,
+     "elevator_pos_deg": 5.48,
+     "pitch_deg": 5.32,
+     "ax_mps2": 2.71,
+     "vz_mps": 2.24
+    }
+   },
+   {
+    "t_start": 243.2,
+    "t_detect": 259.1,
+    "t_end": 684.7,
+    "peak_score": 17.010654554486226,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "airspeed_mps": 6.59,
+     "ekf_vel_innov_mps": 0.76,
+     "ekf_hacc_m": 0.74,
+     "ekf_pos_innov_m": 0.69,
+     "gnss_hdop": 0.51
+    }
+   }
+  ]
+ },
+ "FLT-00086": {
+  "results": [
+   {
+    "fault": "battery_degradation",
+    "onset": 134.3,
+    "detected": true,
+    "latency_s": 9.599999999999994,
+    "flight_id": "FLT-00086"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 128.0,
+    "t_detect": 143.9,
+    "t_end": 147.1,
+    "peak_score": 3.1969030625318124,
+    "phase_at_detect": "climb",
+    "top_channels": {
+     "batt_v": 4.91,
+     "elevator_pos_deg": 0.92,
+     "ekf_pos_innov_m": 0.85,
+     "q_dps": 0.85,
+     "elevator_cmd_deg": 0.85
+    }
+   },
+   {
+    "t_start": 153.6,
+    "t_detect": 169.5,
+    "t_end": 185.5,
+    "peak_score": 5.857279702071405,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "batt_v": 5.97,
+     "throttle": 1.6,
+     "motor4_rpm": 1.56,
+     "motor3_rpm": 1.54,
+     "motor2_rpm": 1.51
+    }
+   },
+   {
+    "t_start": 710.4,
+    "t_detect": 726.3,
+    "t_end": 735.9,
+    "peak_score": 2.7813346835815667,
+    "phase_at_detect": "approach",
+    "top_channels": {
+     "batt_v": 4.11,
+     "r_dps": 1.2,
+     "ekf_pos_innov_m": 0.86,
+     "ekf_vel_innov_mps": 0.75,
+     "ekf_hacc_m": 0.74
+    }
+   }
+  ]
+ },
+ "FLT-00093": {
+  "results": [
+   {
+    "fault": "generator_dropout",
+    "onset": 165.0,
+    "detected": true,
+    "latency_s": 94.10000000000002,
+    "flight_id": "FLT-00093"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 243.2,
+    "t_detect": 259.1,
+    "t_end": 275.1,
+    "peak_score": 3.9343926997941674,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 3.83,
+     "roll_deg": 2.92,
+     "r_dps": 2.48,
+     "batt_a": 1.46,
+     "batt_v": 1.09
+    }
+   },
+   {
+    "t_start": 387.2,
+    "t_detect": 403.1,
+    "t_end": 435.1,
+    "peak_score": 3.5214481439235,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 4.31,
+     "batt_v": 2.13,
+     "batt_a": 1.45,
+     "roll_deg": 0.99,
+     "ekf_pos_innov_m": 0.73
+    }
+   },
+   {
+    "t_start": 432.0,
+    "t_detect": 447.9,
+    "t_end": 547.1,
+    "peak_score": 3.734700418471612,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 3.33,
+     "batt_v": 2.1,
+     "batt_a": 0.81,
+     "ekf_hacc_m": 0.76,
+     "ekf_pos_innov_m": 0.74
+    }
+   }
+  ]
+ },
+ "FLT-00094": {
+  "results": [
+   {
+    "fault": "elevator_stuck",
+    "onset": 327.2,
+    "detected": true,
+    "latency_s": 21.5,
+    "flight_id": "FLT-00094"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 332.8,
+    "t_detect": 348.7,
+    "t_end": 348.7,
+    "peak_score": 3.5702104885131725,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 4.32,
+     "roll_deg": 2.61,
+     "ekf_pos_innov_m": 0.79,
+     "ekf_vel_innov_mps": 0.67,
+     "ekf_hacc_m": 0.63
+    }
+   },
+   {
+    "t_start": 364.8,
+    "t_detect": 380.7,
+    "t_end": 380.7,
+    "peak_score": 3.064668481354749,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "elevator_cmd_deg": 3.39,
+     "roll_deg": 2.72,
+     "vz_mps": 1.04,
+     "gnss_hdop": 0.83,
+     "ekf_pos_innov_m": 0.74
+    }
+   },
+   {
+    "t_start": 652.8,
+    "t_detect": 668.7,
+    "t_end": 675.1,
+    "peak_score": 4.360713195595099,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "elevator_cmd_deg": 6.11,
+     "vz_mps": 1.43,
+     "roll_deg": 0.95,
+     "ekf_pos_innov_m": 0.86,
+     "ekf_hacc_m": 0.77
+    }
+   },
+   {
+    "t_start": 678.4,
+    "t_detect": 694.3,
+    "t_end": 707.1,
+    "peak_score": 7.697846360887426,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.28,
+     "roll_deg": 1.99,
+     "vz_mps": 1.16,
+     "alt_rel_m": 0.95,
+     "ekf_pos_innov_m": 0.89
+    }
+   },
+   {
+    "t_start": 707.2,
+    "t_detect": 723.1,
+    "t_end": 739.1,
+    "peak_score": 6.83205192912166,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.49,
+     "roll_deg": 1.34,
+     "gen_kw": 0.97,
+     "ekf_vel_innov_mps": 0.84,
+     "pitch_deg": 0.76
+    }
+   },
+   {
+    "t_start": 742.4,
+    "t_detect": 758.3,
+    "t_end": 771.1,
+    "peak_score": 7.748324389156705,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.09,
+     "roll_deg": 2.2,
+     "gnss_nsat": 0.88,
+     "gen_kw": 0.84,
+     "ekf_hacc_m": 0.74
+    }
+   },
+   {
+    "t_start": 774.4,
+    "t_detect": 790.3,
+    "t_end": 803.1,
+    "peak_score": 8.30910540417522,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.54,
+     "roll_deg": 2.27,
+     "batt_v": 0.95,
+     "ekf_hacc_m": 0.9,
+     "ekf_vel_innov_mps": 0.88
+    }
+   },
+   {
+    "t_start": 803.2,
+    "t_detect": 819.1,
+    "t_end": 835.1,
+    "peak_score": 7.774990610767841,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.18,
+     "roll_deg": 2.46,
+     "vz_mps": 0.9,
+     "batt_v": 0.79,
+     "ekf_vel_innov_mps": 0.77
+    }
+   },
+   {
+    "t_start": 838.4,
+    "t_detect": 854.3,
+    "t_end": 867.1,
+    "peak_score": 8.16222221374988,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "elevator_cmd_deg": 10.47,
+     "roll_deg": 2.24,
+     "pitch_deg": 0.89,
+     "ekf_pos_innov_m": 0.87,
+     "ekf_vel_innov_mps": 0.85
+    }
+   },
+   {
+    "t_start": 870.4,
+    "t_detect": 886.3,
+    "t_end": 899.1,
+    "peak_score": 8.532075682247939,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 11.39,
+     "roll_deg": 2.09,
+     "batt_v": 1.19,
+     "pitch_deg": 0.9,
+     "ekf_vel_innov_mps": 0.85
+    }
+   },
+   {
+    "t_start": 899.2,
+    "t_detect": 915.1,
+    "t_end": 931.1,
+    "peak_score": 7.782998656957726,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.36,
+     "roll_deg": 1.52,
+     "batt_v": 1.47,
+     "gen_kw": 1.09,
+     "motor1_rpm": 0.99
+    }
+   },
+   {
+    "t_start": 928.0,
+    "t_detect": 943.9,
+    "t_end": 1039.9,
+    "peak_score": 13.429378851934594,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.29,
+     "roll_deg": 3.26,
+     "pitch_deg": 3.01,
+     "r_dps": 2.29,
+     "q_dps": 1.56
+    }
+   }
+  ]
+ },
+ "FLT-00098": {
+  "results": [
+   {
+    "fault": "gnss_jamming",
+    "onset": 257.5,
+    "detected": true,
+    "latency_s": 4.800000000000011,
+    "flight_id": "FLT-00098"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 246.4,
+    "t_detect": 262.3,
+    "t_end": 374.3,
+    "peak_score": 107.89986780093861,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_hacc_m": 63.41,
+     "gnss_hdop": 59.84,
+     "gnss_nsat": 19.23,
+     "r_dps": 3.57,
+     "roll_deg": 2.58
+    }
+   }
+  ]
+ },
+ "FLT-00101": {
+  "results": [
+   {
+    "fault": "gnss_spoofing",
+    "onset": 428.5,
+    "detected": true,
+    "latency_s": 6.600000000000023,
+    "flight_id": "FLT-00101"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 419.2,
+    "t_detect": 435.1,
+    "t_end": 831.9,
+    "peak_score": 130.4954148320593,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_vel_innov_mps": 81.99,
+     "ekf_pos_innov_m": 33.49,
+     "r_dps": 3.43,
+     "roll_deg": 3.11,
+     "gen_kw": 1.11
+    }
+   }
+  ]
+ },
+ "FLT-00107": {
+  "results": [
+   {
+    "fault": "gnss_jamming",
+    "onset": 723.2,
+    "detected": true,
+    "latency_s": 6.2999999999999545,
+    "flight_id": "FLT-00107"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 713.6,
+    "t_detect": 729.5,
+    "t_end": 822.3,
+    "peak_score": 107.80438987218571,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_hacc_m": 73.79,
+     "gnss_hdop": 67.96,
+     "gnss_nsat": 23.19,
+     "r_dps": 4.03,
+     "roll_deg": 2.39
+    }
+   }
+  ]
+ },
+ "FLT-00108": {
+  "results": [
+   {
+    "fault": "generator_dropout",
+    "onset": 135.1,
+    "detected": true,
+    "latency_s": 8.800000000000011,
+    "flight_id": "FLT-00108"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 128.0,
+    "t_detect": 143.9,
+    "t_end": 860.7,
+    "peak_score": 12.874265137193063,
+    "phase_at_detect": "climb",
+    "top_channels": {
+     "gen_kw": 15.34,
+     "batt_v": 2.45,
+     "batt_a": 1.55,
+     "ekf_vel_innov_mps": 0.84,
+     "ekf_pos_innov_m": 0.84
+    }
+   }
+  ]
+ },
+ "FLT-00116": {
+  "results": [
+   {
+    "fault": "battery_degradation",
+    "onset": 489.4,
+    "detected": true,
+    "latency_s": 140.89999999999998,
+    "flight_id": "FLT-00116"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 614.4,
+    "t_detect": 630.3,
+    "t_end": 633.5,
+    "peak_score": 2.7557639930303184,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "batt_v": 3.65,
+     "r_dps": 1.82,
+     "ekf_pos_innov_m": 0.82,
+     "ekf_vel_innov_mps": 0.69,
+     "ekf_hacc_m": 0.67
+    }
+   },
+   {
+    "t_start": 643.2,
+    "t_detect": 659.1,
+    "t_end": 841.5,
+    "peak_score": 4.600122775465194,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "batt_v": 4.58,
+     "r_dps": 1.7,
+     "ekf_vel_innov_mps": 0.95,
+     "alt_rel_m": 0.89,
+     "ekf_pos_innov_m": 0.82
+    }
+   }
+  ]
+ },
+ "FLT-00118": {
+  "results": [
+   {
+    "fault": "motor_failure",
+    "onset": 358.5,
+    "detected": true,
+    "latency_s": 9.399999999999977,
+    "flight_id": "FLT-00118"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 352.0,
+    "t_detect": 367.9,
+    "t_end": 729.5,
+    "peak_score": 13.020756318416474,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "vibe_mps2": 11.16,
+     "motor2_rpm": 7.82,
+     "ekf_pos_innov_m": 0.91,
+     "ekf_hacc_m": 0.78,
+     "gnss_hdop": 0.7
+    }
+   }
+  ]
+ },
+ "FLT-00122": {
+  "results": [
+   {
+    "fault": "generator_dropout",
+    "onset": 336.0,
+    "detected": true,
+    "latency_s": 63.89999999999998,
+    "flight_id": "FLT-00122"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 384.0,
+    "t_detect": 399.9,
+    "t_end": 415.9,
+    "peak_score": 3.2640653505383246,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 4.21,
+     "batt_v": 1.98,
+     "batt_a": 1.84,
+     "roll_deg": 1.79,
+     "ekf_hacc_m": 0.83
+    }
+   },
+   {
+    "t_start": 508.8,
+    "t_detect": 524.7,
+    "t_end": 556.7,
+    "peak_score": 3.586583637466798,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 3.26,
+     "batt_v": 2.91,
+     "batt_a": 1.09,
+     "ekf_pos_innov_m": 0.86,
+     "ekf_hacc_m": 0.74
+    }
+   },
+   {
+    "t_start": 572.8,
+    "t_detect": 588.7,
+    "t_end": 684.7,
+    "peak_score": 4.073336253653905,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 3.12,
+     "batt_v": 2.93,
+     "batt_a": 0.76,
+     "ekf_hacc_m": 0.75,
+     "ekf_pos_innov_m": 0.74
+    }
+   },
+   {
+    "t_start": 854.4,
+    "t_detect": 870.3,
+    "t_end": 870.3,
+    "peak_score": 5.139338161282668,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "pitch_deg": 5.19,
+     "batt_v": 3.47,
+     "q_dps": 2.11,
+     "ekf_pos_innov_m": 0.83,
+     "elevator_pos_deg": 0.8
+    }
+   }
+  ]
+ },
+ "FLT-00123": {
+  "results": [
+   {
+    "fault": "gnss_jamming",
+    "onset": 430.0,
+    "detected": true,
+    "latency_s": 5.100000000000023,
+    "flight_id": "FLT-00123"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 419.2,
+    "t_detect": 435.1,
+    "t_end": 492.7,
+    "peak_score": 105.75303731127775,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_hacc_m": 64.89,
+     "gnss_hdop": 60.98,
+     "gnss_nsat": 20.7,
+     "r_dps": 2.98,
+     "roll_deg": 2.08
+    }
+   }
+  ]
+ },
+ "FLT-00125": {
+  "results": [
+   {
+    "fault": "elevator_stuck",
+    "onset": 379.8,
+    "detected": true,
+    "latency_s": 20.099999999999966,
+    "flight_id": "FLT-00125"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 384.0,
+    "t_detect": 399.9,
+    "t_end": 399.9,
+    "peak_score": 2.7226860899211376,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 3.26,
+     "roll_deg": 2.19,
+     "ekf_pos_innov_m": 0.84,
+     "ekf_vel_innov_mps": 0.81,
+     "ekf_hacc_m": 0.66
+    }
+   },
+   {
+    "t_start": 528.0,
+    "t_detect": 543.9,
+    "t_end": 543.9,
+    "peak_score": 3.3049115187029146,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 3.17,
+     "roll_deg": 3.07,
+     "ekf_hacc_m": 0.73,
+     "gnss_hdop": 0.68,
+     "ekf_vel_innov_mps": 0.67
+    }
+   },
+   {
+    "t_start": 592.0,
+    "t_detect": 607.9,
+    "t_end": 611.1,
+    "peak_score": 3.3818555199306615,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "roll_deg": 3.61,
+     "elevator_cmd_deg": 2.87,
+     "ekf_hacc_m": 0.79,
+     "ekf_pos_innov_m": 0.79,
+     "ekf_vel_innov_mps": 0.72
+    }
+   },
+   {
+    "t_start": 665.6,
+    "t_detect": 681.5,
+    "t_end": 694.3,
+    "peak_score": 7.38380606929323,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.1,
+     "roll_deg": 1.84,
+     "ekf_vel_innov_mps": 1.01,
+     "pitch_deg": 1.01,
+     "ekf_pos_innov_m": 0.84
+    }
+   },
+   {
+    "t_start": 697.6,
+    "t_detect": 713.5,
+    "t_end": 726.3,
+    "peak_score": 6.856641450092093,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.25,
+     "roll_deg": 1.84,
+     "gen_kw": 1.26,
+     "pitch_deg": 0.83,
+     "ekf_vel_innov_mps": 0.79
+    }
+   },
+   {
+    "t_start": 729.6,
+    "t_detect": 745.5,
+    "t_end": 758.3,
+    "peak_score": 7.051960610037495,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.01,
+     "roll_deg": 2.37,
+     "gen_kw": 1.07,
+     "ekf_pos_innov_m": 0.91,
+     "gnss_nsat": 0.87
+    }
+   },
+   {
+    "t_start": 761.6,
+    "t_detect": 777.5,
+    "t_end": 790.3,
+    "peak_score": 7.811996403739917,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.08,
+     "roll_deg": 2.09,
+     "gen_kw": 1.34,
+     "gnss_nsat": 0.92,
+     "ekf_pos_innov_m": 0.87
+    }
+   },
+   {
+    "t_start": 793.6,
+    "t_detect": 809.5,
+    "t_end": 822.3,
+    "peak_score": 7.019848195585164,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 8.9,
+     "roll_deg": 2.75,
+     "gnss_hdop": 0.9,
+     "ekf_hacc_m": 0.74,
+     "gnss_nsat": 0.73
+    }
+   },
+   {
+    "t_start": 825.6,
+    "t_detect": 841.5,
+    "t_end": 854.3,
+    "peak_score": 7.5841423997584965,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.81,
+     "roll_deg": 2.51,
+     "ekf_vel_innov_mps": 0.85,
+     "ekf_hacc_m": 0.83,
+     "gen_kw": 0.8
+    }
+   },
+   {
+    "t_start": 857.6,
+    "t_detect": 873.5,
+    "t_end": 886.3,
+    "peak_score": 7.61013017589256,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "elevator_cmd_deg": 9.38,
+     "roll_deg": 2.52,
+     "ekf_pos_innov_m": 0.8,
+     "ekf_vel_innov_mps": 0.78,
+     "pitch_deg": 0.74
+    }
+   },
+   {
+    "t_start": 889.6,
+    "t_detect": 905.5,
+    "t_end": 918.3,
+    "peak_score": 7.830200621194305,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.09,
+     "roll_deg": 2.22,
+     "ekf_pos_innov_m": 0.83,
+     "pitch_deg": 0.81,
+     "ekf_hacc_m": 0.78
+    }
+   },
+   {
+    "t_start": 918.4,
+    "t_detect": 934.3,
+    "t_end": 1004.7,
+    "peak_score": 13.228100349231063,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 13.83,
+     "pitch_deg": 4.58,
+     "r_dps": 2.57,
+     "q_dps": 1.39,
+     "ekf_pos_innov_m": 0.84
+    }
+   }
+  ]
+ },
+ "FLT-00126": {
+  "results": [
+   {
+    "fault": "motor_failure",
+    "onset": 483.4,
+    "detected": true,
+    "latency_s": 9.300000000000011,
+    "flight_id": "FLT-00126"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 476.8,
+    "t_detect": 492.7,
+    "t_end": 681.5,
+    "peak_score": 12.132861320409162,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "vibe_mps2": 12.52,
+     "motor2_rpm": 7.57,
+     "throttle": 0.9,
+     "ekf_pos_innov_m": 0.89,
+     "motor3_rpm": 0.82
+    }
+   }
+  ]
+ },
+ "FLT-00127": {
+  "results": [
+   {
+    "fault": "gnss_jamming",
+    "onset": 236.2,
+    "detected": true,
+    "latency_s": 3.700000000000017,
+    "flight_id": "FLT-00127"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 224.0,
+    "t_detect": 239.9,
+    "t_end": 374.3,
+    "peak_score": 106.20703535493385,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_hacc_m": 55.67,
+     "gnss_hdop": 53.72,
+     "gnss_nsat": 18.63,
+     "r_dps": 2.66,
+     "roll_deg": 1.86
+    }
+   }
+  ]
+ },
+ "FLT-00131": {
+  "results": [
+   {
+    "fault": "gnss_jamming",
+    "onset": 198.9,
+    "detected": true,
+    "latency_s": 5.799999999999983,
+    "flight_id": "FLT-00131"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 176.0,
+    "t_detect": 191.9,
+    "t_end": 191.9,
+    "peak_score": 3.0061983696476338,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "throttle": 2.95,
+     "motor3_rpm": 2.86,
+     "motor2_rpm": 2.79,
+     "motor4_rpm": 2.77,
+     "motor1_rpm": 2.75
+    }
+   },
+   {
+    "t_start": 188.8,
+    "t_detect": 204.7,
+    "t_end": 268.7,
+    "peak_score": 104.80404365309326,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_hacc_m": 69.23,
+     "gnss_hdop": 64.57,
+     "gnss_nsat": 24.04,
+     "r_dps": 2.36,
+     "pitch_deg": 1.58
+    }
+   }
+  ]
+ },
+ "FLT-00136": {
+  "results": [
+   {
+    "fault": "gnss_spoofing",
+    "onset": 217.8,
+    "detected": true,
+    "latency_s": 6.099999999999994,
+    "flight_id": "FLT-00136"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 208.0,
+    "t_detect": 223.9,
+    "t_end": 742.3,
+    "peak_score": 94.21660587831482,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_vel_innov_mps": 29.98,
+     "ekf_pos_innov_m": 12.62,
+     "gnss_nsat": 3.44,
+     "roll_deg": 2.46,
+     "r_dps": 2.13
+    }
+   }
+  ]
+ },
+ "FLT-00137": {
+  "results": [
+   {
+    "fault": "battery_degradation",
+    "onset": 198.8,
+    "detected": false,
+    "latency_s": null,
+    "flight_id": "FLT-00137"
+   }
+  ],
+  "events": []
+ },
+ "FLT-00140": {
+  "results": [
+   {
+    "fault": "gnss_spoofing",
+    "onset": 448.7,
+    "detected": true,
+    "latency_s": 5.600000000000023,
+    "flight_id": "FLT-00140"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 438.4,
+    "t_detect": 454.3,
+    "t_end": 687.9,
+    "peak_score": 106.59423849505697,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_vel_innov_mps": 46.94,
+     "ekf_pos_innov_m": 16.4,
+     "r_dps": 2.85,
+     "roll_deg": 2.62,
+     "ekf_hacc_m": 0.72
+    }
+   }
+  ]
+ },
+ "FLT-00141": {
+  "results": [
+   {
+    "fault": "imu_vibration",
+    "onset": 422.3,
+    "detected": true,
+    "latency_s": 6.399999999999977,
+    "flight_id": "FLT-00141"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 412.8,
+    "t_detect": 428.7,
+    "t_end": 639.9,
+    "peak_score": 78.32465503277604,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "vibe_mps2": 95.25,
+     "ax_mps2": 3.57,
+     "az_mps2": 3.34,
+     "roll_deg": 3.06,
+     "r_dps": 2.75
+    }
+   }
+  ]
+ },
+ "FLT-00142": {
+  "results": [
+   {
+    "fault": "gnss_spoofing",
+    "onset": 223.3,
+    "detected": true,
+    "latency_s": 3.799999999999983,
+    "flight_id": "FLT-00142"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 211.2,
+    "t_detect": 227.1,
+    "t_end": 627.1,
+    "peak_score": 115.04060042016094,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_vel_innov_mps": 45.07,
+     "ekf_pos_innov_m": 13.18,
+     "gnss_nsat": 2.74,
+     "r_dps": 2.11,
+     "roll_deg": 2.05
+    }
+   }
+  ]
+ },
+ "FLT-00146": {
+  "results": [
+   {
+    "fault": "generator_dropout",
+    "onset": 244.9,
+    "detected": true,
+    "latency_s": 14.200000000000017,
+    "flight_id": "FLT-00146"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 243.2,
+    "t_detect": 259.1,
+    "t_end": 291.1,
+    "peak_score": 3.0706461719994103,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 4.65,
+     "batt_a": 1.24,
+     "ekf_hacc_m": 0.94,
+     "roll_deg": 0.92,
+     "ekf_pos_innov_m": 0.88
+    }
+   },
+   {
+    "t_start": 288.0,
+    "t_detect": 303.9,
+    "t_end": 303.9,
+    "peak_score": 2.724005392622236,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 4.34,
+     "batt_a": 1.06,
+     "ekf_pos_innov_m": 0.85,
+     "ekf_hacc_m": 0.75,
+     "gnss_hdop": 0.69
+    }
+   },
+   {
+    "t_start": 457.6,
+    "t_detect": 473.5,
+    "t_end": 486.3,
+    "peak_score": 3.1080949056841263,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "roll_deg": 3.08,
+     "gen_kw": 2.72,
+     "r_dps": 1.95,
+     "batt_v": 1.68,
+     "batt_a": 1.23
+    }
+   },
+   {
+    "t_start": 496.0,
+    "t_detect": 511.9,
+    "t_end": 601.5,
+    "peak_score": 3.8609731239243823,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 3.65,
+     "batt_v": 2.17,
+     "batt_a": 1.1,
+     "ekf_pos_innov_m": 0.91,
+     "gnss_hdop": 0.75
+    }
+   }
+  ]
+ },
+ "FLT-00148": {
+  "results": [
+   {
+    "fault": "pitot_blockage",
+    "onset": 209.4,
+    "detected": true,
+    "latency_s": 8.099999999999994,
+    "flight_id": "FLT-00148"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 201.6,
+    "t_detect": 217.5,
+    "t_end": 790.3,
+    "peak_score": 18.6410984615734,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "motor2_rpm": 6.33,
+     "throttle": 6.28,
+     "vibe_mps2": 5.92,
+     "q_dps": 5.55,
+     "elevator_cmd_deg": 5.34
+    }
+   }
+  ]
+ },
+ "FLT-00149": {
+  "results": [
+   {
+    "fault": "imu_vibration",
+    "onset": 144.7,
+    "detected": true,
+    "latency_s": 5.600000000000023,
+    "flight_id": "FLT-00149"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 134.4,
+    "t_detect": 150.3,
+    "t_end": 876.7,
+    "peak_score": 59.36160792274943,
+    "phase_at_detect": "climb",
+    "top_channels": {
+     "vibe_mps2": 69.98,
+     "ax_mps2": 5.0,
+     "az_mps2": 3.61,
+     "ekf_vel_innov_mps": 0.74,
+     "ekf_pos_innov_m": 0.72
+    }
+   }
+  ]
+ },
+ "FLT-00151": {
+  "results": [
+   {
+    "fault": "gnss_jamming",
+    "onset": 302.5,
+    "detected": true,
+    "latency_s": 4.600000000000023,
+    "flight_id": "FLT-00151"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 291.2,
+    "t_detect": 307.1,
+    "t_end": 393.5,
+    "peak_score": 106.08960053180726,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_hacc_m": 62.56,
+     "gnss_hdop": 58.71,
+     "gnss_nsat": 18.4,
+     "r_dps": 1.24,
+     "roll_deg": 0.9
+    }
+   }
+  ]
+ },
+ "FLT-00154": {
+  "results": [
+   {
+    "fault": "imu_vibration",
+    "onset": 532.3,
+    "detected": true,
+    "latency_s": 5.2000000000000455,
+    "flight_id": "FLT-00154"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 521.6,
+    "t_detect": 537.5,
+    "t_end": 758.3,
+    "peak_score": 106.28878349730455,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "vibe_mps2": 111.1,
+     "ax_mps2": 4.73,
+     "az_mps2": 3.91,
+     "r_dps": 2.27,
+     "roll_deg": 2.21
+    }
+   }
+  ]
+ },
+ "FLT-00157": {
+  "results": [
+   {
+    "fault": "gnss_jamming",
+    "onset": 241.4,
+    "detected": true,
+    "latency_s": 4.900000000000006,
+    "flight_id": "FLT-00157"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 230.4,
+    "t_detect": 246.3,
+    "t_end": 371.1,
+    "peak_score": 108.20362317520406,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_hacc_m": 63.78,
+     "gnss_hdop": 60.85,
+     "gnss_nsat": 20.63,
+     "r_dps": 3.13,
+     "roll_deg": 2.01
+    }
+   }
+  ]
+ },
+ "FLT-00158": {
+  "results": [
+   {
+    "fault": "motor_failure",
+    "onset": 374.0,
+    "detected": true,
+    "latency_s": 6.699999999999989,
+    "flight_id": "FLT-00158"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 364.8,
+    "t_detect": 380.7,
+    "t_end": 607.9,
+    "peak_score": 15.183446191544382,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "vibe_mps2": 10.72,
+     "motor3_rpm": 9.71,
+     "ax_mps2": 0.87,
+     "ekf_hacc_m": 0.81,
+     "ekf_vel_innov_mps": 0.74
+    }
+   }
+  ]
+ },
+ "FLT-00161": {
+  "results": [
+   {
+    "fault": "gnss_jamming",
+    "onset": 129.7,
+    "detected": true,
+    "latency_s": 4.600000000000023,
+    "flight_id": "FLT-00161"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 118.4,
+    "t_detect": 134.3,
+    "t_end": 217.5,
+    "peak_score": 105.70326333619207,
+    "phase_at_detect": "climb",
+    "top_channels": {
+     "ekf_hacc_m": 60.45,
+     "gnss_hdop": 57.57,
+     "gnss_nsat": 23.18,
+     "pitch_deg": 1.17,
+     "throttle": 0.71
+    }
+   }
+  ]
+ },
+ "FLT-00173": {
+  "results": [
+   {
+    "fault": "battery_degradation",
+    "onset": 293.7,
+    "detected": false,
+    "latency_s": null,
+    "flight_id": "FLT-00173"
+   }
+  ],
+  "events": []
+ },
+ "FLT-00177": {
+  "results": [
+   {
+    "fault": "pitot_blockage",
+    "onset": 184.2,
+    "detected": true,
+    "latency_s": 10.900000000000006,
+    "flight_id": "FLT-00177"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 179.2,
+    "t_detect": 195.1,
+    "t_end": 211.1,
+    "peak_score": 12.873866954691707,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "pitch_deg": 10.68,
+     "elevator_cmd_deg": 6.15,
+     "elevator_pos_deg": 5.81,
+     "ax_mps2": 4.46,
+     "vz_mps": 3.3
+    }
+   },
+   {
+    "t_start": 227.2,
+    "t_detect": 243.1,
+    "t_end": 521.5,
+    "peak_score": 17.86229806496177,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "airspeed_mps": 7.88,
+     "ekf_pos_innov_m": 0.71,
+     "ekf_vel_innov_mps": 0.68,
+     "ekf_hacc_m": 0.62,
+     "gnss_hdop": 0.55
+    }
+   }
+  ]
+ },
+ "FLT-00179": {
+  "results": [
+   {
+    "fault": "elevator_stuck",
+    "onset": 146.6,
+    "detected": true,
+    "latency_s": 29.30000000000001,
+    "flight_id": "FLT-00179"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 160.0,
+    "t_detect": 175.9,
+    "t_end": 191.9,
+    "peak_score": 5.756848989885508,
+    "phase_at_detect": "climb",
+    "top_channels": {
+     "elevator_cmd_deg": 9.37,
+     "ekf_vel_innov_mps": 0.79,
+     "ekf_pos_innov_m": 0.74,
+     "ekf_hacc_m": 0.69,
+     "gnss_hdop": 0.61
+    }
+   },
+   {
+    "t_start": 188.8,
+    "t_detect": 204.7,
+    "t_end": 217.5,
+    "peak_score": 6.16421184913523,
+    "phase_at_detect": "climb",
+    "top_channels": {
+     "elevator_cmd_deg": 8.42,
+     "airspeed_mps": 0.86,
+     "ekf_pos_innov_m": 0.84,
+     "ekf_vel_innov_mps": 0.82,
+     "gnss_hdop": 0.71
+    }
+   },
+   {
+    "t_start": 326.4,
+    "t_detect": 342.3,
+    "t_end": 345.5,
+    "peak_score": 3.963403031270554,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "roll_deg": 4.33,
+     "elevator_cmd_deg": 2.7,
+     "gnss_hdop": 0.84,
+     "ekf_pos_innov_m": 0.79,
+     "ekf_vel_innov_mps": 0.77
+    }
+   },
+   {
+    "t_start": 422.4,
+    "t_detect": 438.3,
+    "t_end": 441.5,
+    "peak_score": 3.487674745359832,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "roll_deg": 3.97,
+     "elevator_cmd_deg": 2.31,
+     "ekf_hacc_m": 0.81,
+     "ekf_pos_innov_m": 0.77,
+     "ekf_vel_innov_mps": 0.72
+    }
+   },
+   {
+    "t_start": 454.4,
+    "t_detect": 470.3,
+    "t_end": 470.3,
+    "peak_score": 2.991076208036561,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "roll_deg": 3.06,
+     "elevator_cmd_deg": 2.74,
+     "gnss_hdop": 0.74,
+     "ekf_vel_innov_mps": 0.71,
+     "gnss_nsat": 0.7
+    }
+   },
+   {
+    "t_start": 505.6,
+    "t_detect": 521.5,
+    "t_end": 527.9,
+    "peak_score": 4.048547620106625,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 5.67,
+     "gen_kw": 1.4,
+     "roll_deg": 1.12,
+     "pitch_deg": 0.99,
+     "vibe_mps2": 0.95
+    }
+   },
+   {
+    "t_start": 528.0,
+    "t_detect": 543.9,
+    "t_end": 556.7,
+    "peak_score": 7.227422562236099,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.86,
+     "roll_deg": 2.01,
+     "gen_kw": 1.23,
+     "ekf_pos_innov_m": 0.85,
+     "pitch_deg": 0.76
+    }
+   },
+   {
+    "t_start": 560.0,
+    "t_detect": 575.9,
+    "t_end": 588.7,
+    "peak_score": 7.257435190512501,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.32,
+     "roll_deg": 2.16,
+     "gen_kw": 0.98,
+     "ekf_hacc_m": 0.92,
+     "ekf_pos_innov_m": 0.84
+    }
+   },
+   {
+    "t_start": 592.0,
+    "t_detect": 607.9,
+    "t_end": 620.7,
+    "peak_score": 7.5715310533544065,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.83,
+     "roll_deg": 2.44,
+     "gen_kw": 1.08,
+     "ekf_pos_innov_m": 0.84,
+     "ekf_hacc_m": 0.8
+    }
+   },
+   {
+    "t_start": 624.0,
+    "t_detect": 639.9,
+    "t_end": 652.7,
+    "peak_score": 7.855813662603611,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.92,
+     "roll_deg": 2.64,
+     "gen_kw": 0.93,
+     "ekf_vel_innov_mps": 0.8,
+     "ekf_pos_innov_m": 0.73
+    }
+   },
+   {
+    "t_start": 656.0,
+    "t_detect": 671.9,
+    "t_end": 684.7,
+    "peak_score": 8.185304871657191,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.54,
+     "roll_deg": 2.44,
+     "gen_kw": 1.25,
+     "ekf_pos_innov_m": 0.79,
+     "ekf_hacc_m": 0.76
+    }
+   },
+   {
+    "t_start": 688.0,
+    "t_detect": 703.9,
+    "t_end": 716.7,
+    "peak_score": 7.76502143436506,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.1,
+     "roll_deg": 2.52,
+     "ekf_pos_innov_m": 0.72,
+     "ekf_hacc_m": 0.69,
+     "gen_kw": 0.68
+    }
+   },
+   {
+    "t_start": 720.0,
+    "t_detect": 735.9,
+    "t_end": 751.9,
+    "peak_score": 8.098122943742155,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.72,
+     "roll_deg": 1.3,
+     "r_dps": 0.91,
+     "ekf_pos_innov_m": 0.84,
+     "ekf_hacc_m": 0.77
+    }
+   },
+   {
+    "t_start": 748.8,
+    "t_detect": 764.7,
+    "t_end": 847.9,
+    "peak_score": 13.172094285217899,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 13.37,
+     "pitch_deg": 3.11,
+     "q_dps": 1.49,
+     "ax_mps2": 0.9,
+     "roll_deg": 0.86
+    }
+   }
+  ]
+ },
+ "FLT-00183": {
+  "results": [
+   {
+    "fault": "battery_degradation",
+    "onset": 181.7,
+    "detected": true,
+    "latency_s": 26.200000000000017,
+    "flight_id": "FLT-00183"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 192.0,
+    "t_detect": 207.9,
+    "t_end": 217.5,
+    "peak_score": 4.337211711273773,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "batt_v": 6.21,
+     "batt_a": 0.8,
+     "ekf_pos_innov_m": 0.8,
+     "vz_mps": 0.77,
+     "ekf_vel_innov_mps": 0.74
+    }
+   }
+  ]
+ },
+ "FLT-00186": {
+  "results": [
+   {
+    "fault": "pitot_blockage",
+    "onset": 324.3,
+    "detected": true,
+    "latency_s": 11.599999999999966,
+    "flight_id": "FLT-00186"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 320.0,
+    "t_detect": 335.9,
+    "t_end": 652.7,
+    "peak_score": 16.854882543011474,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "gen_kw": 5.25,
+     "elevator_cmd_deg": 5.05,
+     "elevator_pos_deg": 4.96,
+     "throttle": 4.61,
+     "motor4_rpm": 4.18
+    }
+   }
+  ]
+ },
+ "FLT-00191": {
+  "results": [
+   {
+    "fault": "battery_degradation",
+    "onset": 178.1,
+    "detected": true,
+    "latency_s": 10.599999999999994,
+    "flight_id": "FLT-00191"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 172.8,
+    "t_detect": 188.7,
+    "t_end": 284.7,
+    "peak_score": 5.818137531971772,
+    "phase_at_detect": "climb",
+    "top_channels": {
+     "batt_v": 7.24,
+     "q_dps": 0.89,
+     "elevator_pos_deg": 0.82,
+     "ekf_vel_innov_mps": 0.77,
+     "elevator_cmd_deg": 0.77
+    }
+   },
+   {
+    "t_start": 387.2,
+    "t_detect": 403.1,
+    "t_end": 403.1,
+    "peak_score": 2.813959436744221,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "batt_v": 3.6,
+     "r_dps": 2.0,
+     "ekf_hacc_m": 0.85,
+     "ekf_pos_innov_m": 0.79,
+     "airspeed_mps": 0.71
+    }
+   },
+   {
+    "t_start": 534.4,
+    "t_detect": 550.3,
+    "t_end": 732.7,
+    "peak_score": 4.949175269275403,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "batt_v": 4.91,
+     "ax_mps2": 1.2,
+     "gen_kw": 1.04,
+     "r_dps": 0.94,
+     "vibe_mps2": 0.84
+    }
+   }
+  ]
+ },
+ "FLT-00193": {
+  "results": [
+   {
+    "fault": "generator_dropout",
+    "onset": 474.9,
+    "detected": true,
+    "latency_s": 40.200000000000045,
+    "flight_id": "FLT-00193"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 499.2,
+    "t_detect": 515.1,
+    "t_end": 518.3,
+    "peak_score": 3.1947297369454892,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 3.92,
+     "roll_deg": 2.17,
+     "batt_a": 1.77,
+     "r_dps": 1.35,
+     "batt_v": 1.26
+    }
+   }
+  ]
+ },
+ "FLT-00195": {
+  "results": [
+   {
+    "fault": "gnss_jamming",
+    "onset": 251.1,
+    "detected": true,
+    "latency_s": 4.800000000000011,
+    "flight_id": "FLT-00195"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 240.0,
+    "t_detect": 255.9,
+    "t_end": 367.9,
+    "peak_score": 107.77315570278249,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_hacc_m": 63.13,
+     "gnss_hdop": 59.13,
+     "gnss_nsat": 20.48,
+     "r_dps": 3.34,
+     "roll_deg": 1.82
+    }
+   }
+  ]
+ },
+ "FLT-00198": {
+  "results": [
+   {
+    "fault": "motor_failure",
+    "onset": 443.4,
+    "detected": true,
+    "latency_s": 7.7000000000000455,
+    "flight_id": "FLT-00198"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 435.2,
+    "t_detect": 451.1,
+    "t_end": 655.9,
+    "peak_score": 11.56522850816393,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "vibe_mps2": 10.9,
+     "motor2_rpm": 6.3,
+     "gnss_hdop": 0.88,
+     "ekf_pos_innov_m": 0.77,
+     "ekf_hacc_m": 0.76
+    }
+   }
+  ]
+ },
+ "FLT-00199": {
+  "results": [
+   {
+    "fault": "battery_degradation",
+    "onset": 581.9,
+    "detected": false,
+    "latency_s": null,
+    "flight_id": "FLT-00199"
+   }
+  ],
+  "events": []
+ },
+ "FLT-00200": {
+  "results": [
+   {
+    "fault": "generator_dropout",
+    "onset": 520.0,
+    "detected": true,
+    "latency_s": 151.89999999999998,
+    "flight_id": "FLT-00200"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 147.2,
+    "t_detect": 163.1,
+    "t_end": 166.3,
+    "peak_score": 2.833337261607892,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "pitch_deg": 3.34,
+     "airspeed_mps": 2.23,
+     "ekf_vel_innov_mps": 0.85,
+     "ekf_pos_innov_m": 0.84,
+     "ekf_hacc_m": 0.77
+    }
+   },
+   {
+    "t_start": 656.0,
+    "t_detect": 671.9,
+    "t_end": 671.9,
+    "peak_score": 2.7733334989324057,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 3.98,
+     "batt_a": 1.54,
+     "batt_v": 1.32,
+     "ekf_hacc_m": 0.78,
+     "roll_deg": 0.74
+    }
+   }
+  ]
+ },
+ "FLT-00203": {
+  "results": [
+   {
+    "fault": "elevator_stuck",
+    "onset": 188.1,
+    "detected": true,
+    "latency_s": 19.80000000000001,
+    "flight_id": "FLT-00203"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 192.0,
+    "t_detect": 207.9,
+    "t_end": 207.9,
+    "peak_score": 2.886509534285106,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 4.23,
+     "roll_deg": 1.51,
+     "ekf_pos_innov_m": 0.87,
+     "ekf_vel_innov_mps": 0.79,
+     "ekf_hacc_m": 0.74
+    }
+   },
+   {
+    "t_start": 240.0,
+    "t_detect": 255.9,
+    "t_end": 259.1,
+    "peak_score": 3.114024466103065,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "roll_deg": 3.54,
+     "elevator_cmd_deg": 2.1,
+     "ekf_vel_innov_mps": 0.76,
+     "ekf_pos_innov_m": 0.68,
+     "ekf_hacc_m": 0.67
+    }
+   },
+   {
+    "t_start": 435.2,
+    "t_detect": 451.1,
+    "t_end": 470.3,
+    "peak_score": 6.844286470705254,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 8.72,
+     "roll_deg": 1.03,
+     "ax_mps2": 0.95,
+     "ekf_vel_innov_mps": 0.81,
+     "ekf_hacc_m": 0.8
+    }
+   },
+   {
+    "t_start": 473.6,
+    "t_detect": 489.5,
+    "t_end": 502.3,
+    "peak_score": 7.174024088741268,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.03,
+     "roll_deg": 2.54,
+     "pitch_deg": 0.88,
+     "gen_kw": 0.79,
+     "ekf_pos_innov_m": 0.79
+    }
+   },
+   {
+    "t_start": 505.6,
+    "t_detect": 521.5,
+    "t_end": 534.3,
+    "peak_score": 6.8161238339482,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 8.1,
+     "roll_deg": 2.69,
+     "ekf_pos_innov_m": 0.88,
+     "gen_kw": 0.8,
+     "gnss_hdop": 0.77
+    }
+   },
+   {
+    "t_start": 537.6,
+    "t_detect": 553.5,
+    "t_end": 566.3,
+    "peak_score": 7.420141657101628,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.59,
+     "roll_deg": 2.29,
+     "gen_kw": 0.96,
+     "ekf_hacc_m": 0.83,
+     "ekf_vel_innov_mps": 0.79
+    }
+   },
+   {
+    "t_start": 569.6,
+    "t_detect": 585.5,
+    "t_end": 598.3,
+    "peak_score": 7.861062270355585,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.2,
+     "roll_deg": 2.31,
+     "gen_kw": 1.15,
+     "ekf_pos_innov_m": 0.87,
+     "ekf_vel_innov_mps": 0.83
+    }
+   },
+   {
+    "t_start": 601.6,
+    "t_detect": 617.5,
+    "t_end": 630.3,
+    "peak_score": 7.7969402365238984,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.84,
+     "roll_deg": 2.25,
+     "gen_kw": 0.96,
+     "ekf_pos_innov_m": 0.88,
+     "gnss_hdop": 0.77
+    }
+   },
+   {
+    "t_start": 633.6,
+    "t_detect": 649.5,
+    "t_end": 745.5,
+    "peak_score": 13.15312286461656,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.84,
+     "roll_deg": 2.38,
+     "gen_kw": 0.96,
+     "ekf_hacc_m": 0.81,
+     "gnss_hdop": 0.8
+    }
+   }
+  ]
+ },
+ "FLT-00205": {
+  "results": [
+   {
+    "fault": "elevator_stuck",
+    "onset": 194.2,
+    "detected": true,
+    "latency_s": 20.100000000000023,
+    "flight_id": "FLT-00205"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 198.4,
+    "t_detect": 214.3,
+    "t_end": 214.3,
+    "peak_score": 2.903122157404938,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 3.23,
+     "roll_deg": 2.37,
+     "ekf_hacc_m": 0.96,
+     "ekf_pos_innov_m": 0.88,
+     "ekf_vel_innov_mps": 0.72
+    }
+   },
+   {
+    "t_start": 310.4,
+    "t_detect": 326.3,
+    "t_end": 326.3,
+    "peak_score": 2.774296854360947,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 2.87,
+     "roll_deg": 2.68,
+     "ekf_pos_innov_m": 0.94,
+     "gnss_hdop": 0.78,
+     "ekf_hacc_m": 0.75
+    }
+   },
+   {
+    "t_start": 374.4,
+    "t_detect": 390.3,
+    "t_end": 393.5,
+    "peak_score": 3.033478389210815,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "roll_deg": 2.81,
+     "elevator_cmd_deg": 2.8,
+     "ekf_vel_innov_mps": 1.09,
+     "ekf_hacc_m": 0.9,
+     "ekf_pos_innov_m": 0.79
+    }
+   },
+   {
+    "t_start": 406.4,
+    "t_detect": 422.3,
+    "t_end": 422.3,
+    "peak_score": 3.0698329312039143,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "roll_deg": 2.91,
+     "elevator_cmd_deg": 2.88,
+     "ekf_pos_innov_m": 0.77,
+     "ekf_vel_innov_mps": 0.68,
+     "ekf_hacc_m": 0.63
+    }
+   },
+   {
+    "t_start": 438.4,
+    "t_detect": 454.3,
+    "t_end": 457.5,
+    "peak_score": 3.470160743771917,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "roll_deg": 3.64,
+     "elevator_cmd_deg": 2.91,
+     "ekf_hacc_m": 0.71,
+     "ekf_vel_innov_mps": 0.69,
+     "ekf_pos_innov_m": 0.66
+    }
+   },
+   {
+    "t_start": 470.4,
+    "t_detect": 486.3,
+    "t_end": 486.3,
+    "peak_score": 3.1314304127602317,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "roll_deg": 3.25,
+     "elevator_cmd_deg": 2.98,
+     "ekf_pos_innov_m": 0.85,
+     "ekf_hacc_m": 0.83,
+     "ekf_vel_innov_mps": 0.74
+    }
+   },
+   {
+    "t_start": 502.4,
+    "t_detect": 518.3,
+    "t_end": 518.3,
+    "peak_score": 3.1678675228152735,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 3.05,
+     "roll_deg": 2.97,
+     "gnss_hdop": 0.86,
+     "ekf_vel_innov_mps": 0.78,
+     "ekf_hacc_m": 0.74
+    }
+   },
+   {
+    "t_start": 521.6,
+    "t_detect": 537.5,
+    "t_end": 543.9,
+    "peak_score": 3.91114516090494,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 5.66,
+     "vz_mps": 1.22,
+     "roll_deg": 0.97,
+     "ekf_hacc_m": 0.8,
+     "pitch_deg": 0.8
+    }
+   },
+   {
+    "t_start": 544.0,
+    "t_detect": 559.9,
+    "t_end": 572.7,
+    "peak_score": 7.096672159792635,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.12,
+     "roll_deg": 2.41,
+     "gen_kw": 1.24,
+     "pitch_deg": 0.98,
+     "ekf_vel_innov_mps": 0.82
+    }
+   },
+   {
+    "t_start": 576.0,
+    "t_detect": 591.9,
+    "t_end": 604.7,
+    "peak_score": 7.087848557410206,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 8.82,
+     "roll_deg": 2.77,
+     "gen_kw": 0.98,
+     "ekf_pos_innov_m": 0.84,
+     "ekf_hacc_m": 0.8
+    }
+   },
+   {
+    "t_start": 608.0,
+    "t_detect": 623.9,
+    "t_end": 636.7,
+    "peak_score": 7.297723162926086,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.87,
+     "roll_deg": 2.23,
+     "gen_kw": 1.44,
+     "ekf_vel_innov_mps": 0.81,
+     "ekf_pos_innov_m": 0.8
+    }
+   },
+   {
+    "t_start": 640.0,
+    "t_detect": 655.9,
+    "t_end": 668.7,
+    "peak_score": 7.619503327922837,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.44,
+     "roll_deg": 1.9,
+     "gen_kw": 1.11,
+     "gnss_hdop": 0.78,
+     "ekf_hacc_m": 0.76
+    }
+   },
+   {
+    "t_start": 672.0,
+    "t_detect": 687.9,
+    "t_end": 783.9,
+    "peak_score": 12.695160932743807,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.09,
+     "roll_deg": 2.25,
+     "gen_kw": 1.22,
+     "ekf_vel_innov_mps": 0.78,
+     "ekf_pos_innov_m": 0.77
+    }
+   }
+  ]
+ },
+ "FLT-00206": {
+  "results": [
+   {
+    "fault": "generator_dropout",
+    "onset": 553.7,
+    "detected": true,
+    "latency_s": 60.59999999999991,
+    "flight_id": "FLT-00206"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 598.4,
+    "t_detect": 614.3,
+    "t_end": 620.7,
+    "peak_score": 5.857822121636515,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "roll_deg": 4.48,
+     "r_dps": 3.26,
+     "gen_kw": 1.96,
+     "batt_v": 1.47,
+     "p_dps": 1.43
+    }
+   }
+  ]
+ },
+ "FLT-00211": {
+  "results": [
+   {
+    "fault": "battery_degradation",
+    "onset": 409.2,
+    "detected": true,
+    "latency_s": 64.30000000000001,
+    "flight_id": "FLT-00211"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 457.6,
+    "t_detect": 473.5,
+    "t_end": 662.3,
+    "peak_score": 4.284211879515832,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "batt_v": 4.81,
+     "r_dps": 1.14,
+     "ax_mps2": 0.76,
+     "ekf_pos_innov_m": 0.75,
+     "gen_kw": 0.69
+    }
+   }
+  ]
+ },
+ "FLT-00213": {
+  "results": [
+   {
+    "fault": "pitot_blockage",
+    "onset": 352.4,
+    "detected": true,
+    "latency_s": 9.100000000000023,
+    "flight_id": "FLT-00213"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 345.6,
+    "t_detect": 361.5,
+    "t_end": 694.3,
+    "peak_score": 18.873877807968917,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "throttle": 5.7,
+     "motor2_rpm": 5.43,
+     "vibe_mps2": 5.07,
+     "motor3_rpm": 4.72,
+     "motor1_rpm": 4.67
+    }
+   }
+  ]
+ },
+ "FLT-00215": {
+  "results": [
+   {
+    "fault": "elevator_stuck",
+    "onset": 376.6,
+    "detected": true,
+    "latency_s": 68.09999999999997,
+    "flight_id": "FLT-00215"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 428.8,
+    "t_detect": 444.7,
+    "t_end": 444.7,
+    "peak_score": 3.08818074640121,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 3.1,
+     "roll_deg": 2.88,
+     "ekf_vel_innov_mps": 0.92,
+     "ekf_pos_innov_m": 0.84,
+     "ekf_hacc_m": 0.71
+    }
+   },
+   {
+    "t_start": 460.8,
+    "t_detect": 476.7,
+    "t_end": 476.7,
+    "peak_score": 2.700120388151717,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 3.05,
+     "roll_deg": 2.34,
+     "ekf_pos_innov_m": 0.82,
+     "gnss_nsat": 0.8,
+     "ekf_vel_innov_mps": 0.68
+    }
+   },
+   {
+    "t_start": 691.2,
+    "t_detect": 707.1,
+    "t_end": 723.1,
+    "peak_score": 7.485421412269325,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.69,
+     "alt_rel_m": 0.8,
+     "ekf_pos_innov_m": 0.79,
+     "ekf_vel_innov_mps": 0.77,
+     "roll_deg": 0.7
+    }
+   },
+   {
+    "t_start": 726.4,
+    "t_detect": 742.3,
+    "t_end": 755.1,
+    "peak_score": 7.466232456182739,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.79,
+     "roll_deg": 2.31,
+     "ekf_vel_innov_mps": 0.83,
+     "alt_rel_m": 0.82,
+     "ekf_pos_innov_m": 0.82
+    }
+   },
+   {
+    "t_start": 758.4,
+    "t_detect": 774.3,
+    "t_end": 787.1,
+    "peak_score": 7.770715303533959,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.41,
+     "roll_deg": 1.95,
+     "gen_kw": 0.98,
+     "gnss_nsat": 0.87,
+     "ekf_pos_innov_m": 0.84
+    }
+   },
+   {
+    "t_start": 790.4,
+    "t_detect": 806.3,
+    "t_end": 819.1,
+    "peak_score": 7.347942568767578,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.27,
+     "roll_deg": 2.56,
+     "gnss_hdop": 0.76,
+     "ekf_pos_innov_m": 0.72,
+     "pitch_deg": 0.69
+    }
+   },
+   {
+    "t_start": 822.4,
+    "t_detect": 838.3,
+    "t_end": 851.1,
+    "peak_score": 6.9103508802195055,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "elevator_cmd_deg": 9.69,
+     "roll_deg": 1.48,
+     "gen_kw": 1.07,
+     "motor1_rpm": 0.84,
+     "pitch_deg": 0.83
+    }
+   },
+   {
+    "t_start": 854.4,
+    "t_detect": 870.3,
+    "t_end": 883.1,
+    "peak_score": 8.069240902901363,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.91,
+     "roll_deg": 2.02,
+     "ekf_pos_innov_m": 0.9,
+     "batt_v": 0.87,
+     "gen_kw": 0.77
+    }
+   },
+   {
+    "t_start": 886.4,
+    "t_detect": 902.3,
+    "t_end": 915.1,
+    "peak_score": 7.288460137683485,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.3,
+     "roll_deg": 2.65,
+     "ekf_pos_innov_m": 0.87,
+     "vz_mps": 0.76,
+     "pitch_deg": 0.74
+    }
+   },
+   {
+    "t_start": 918.4,
+    "t_detect": 934.3,
+    "t_end": 947.1,
+    "peak_score": 7.6254650392677075,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.54,
+     "roll_deg": 2.75,
+     "ekf_pos_innov_m": 0.82,
+     "pitch_deg": 0.81,
+     "batt_v": 0.77
+    }
+   },
+   {
+    "t_start": 950.4,
+    "t_detect": 966.3,
+    "t_end": 979.1,
+    "peak_score": 7.936024221797187,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 11.08,
+     "roll_deg": 1.74,
+     "batt_v": 1.35,
+     "gen_kw": 0.92,
+     "pitch_deg": 0.86
+    }
+   },
+   {
+    "t_start": 979.2,
+    "t_detect": 995.1,
+    "t_end": 1068.7,
+    "peak_score": 13.667328633037855,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 14.09,
+     "pitch_deg": 5.04,
+     "r_dps": 2.72,
+     "q_dps": 1.63,
+     "gnss_nsat": 0.86
+    }
+   }
+  ]
+ },
+ "FLT-00226": {
+  "results": [
+   {
+    "fault": "gnss_jamming",
+    "onset": 465.1,
+    "detected": true,
+    "latency_s": 5.199999999999989,
+    "flight_id": "FLT-00226"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 454.4,
+    "t_detect": 470.3,
+    "t_end": 531.1,
+    "peak_score": 105.8629976596776,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_hacc_m": 65.98,
+     "gnss_hdop": 62.23,
+     "gnss_nsat": 20.62,
+     "r_dps": 3.61,
+     "roll_deg": 2.19
+    }
+   }
+  ]
+ },
+ "FLT-00227": {
+  "results": [
+   {
+    "fault": "gnss_spoofing",
+    "onset": 404.4,
+    "detected": true,
+    "latency_s": 5.100000000000023,
+    "flight_id": "FLT-00227"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 393.6,
+    "t_detect": 409.5,
+    "t_end": 559.9,
+    "peak_score": 103.05281088126188,
+    "phase_at_detect": "climb",
+    "top_channels": {
+     "ekf_vel_innov_mps": 39.46,
+     "ekf_pos_innov_m": 14.29,
+     "r_dps": 1.83,
+     "roll_deg": 1.77,
+     "vz_mps": 0.79
+    }
+   }
+  ]
+ },
+ "FLT-00229": {
+  "results": [
+   {
+    "fault": "pitot_blockage",
+    "onset": 603.9,
+    "detected": true,
+    "latency_s": 10.399999999999977,
+    "flight_id": "FLT-00229"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 598.4,
+    "t_detect": 614.3,
+    "t_end": 627.1,
+    "peak_score": 13.963224644142098,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "elevator_cmd_deg": 4.61,
+     "throttle": 4.41,
+     "elevator_pos_deg": 4.4,
+     "motor2_rpm": 3.92,
+     "gen_kw": 3.73
+    }
+   },
+   {
+    "t_start": 624.0,
+    "t_detect": 639.9,
+    "t_end": 918.3,
+    "peak_score": 17.752885707010847,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "airspeed_mps": 7.77,
+     "ekf_hacc_m": 0.79,
+     "ekf_pos_innov_m": 0.78,
+     "gnss_hdop": 0.71,
+     "ekf_vel_innov_mps": 0.69
+    }
+   }
+  ]
+ },
+ "FLT-00233": {
+  "results": [
+   {
+    "fault": "battery_degradation",
+    "onset": 159.8,
+    "detected": true,
+    "latency_s": 256.09999999999997,
+    "flight_id": "FLT-00233"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 400.0,
+    "t_detect": 415.9,
+    "t_end": 415.9,
+    "peak_score": 3.640699802578782,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "r_dps": 3.47,
+     "gen_kw": 3.21,
+     "roll_deg": 2.82,
+     "vibe_mps2": 2.73,
+     "batt_v": 2.6
+    }
+   }
+  ]
+ },
+ "FLT-00234": {
+  "results": [
+   {
+    "fault": "gnss_jamming",
+    "onset": 446.6,
+    "detected": true,
+    "latency_s": 4.5,
+    "flight_id": "FLT-00234"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 435.2,
+    "t_detect": 451.1,
+    "t_end": 521.5,
+    "peak_score": 107.84305963253738,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_hacc_m": 61.24,
+     "gnss_hdop": 57.19,
+     "gnss_nsat": 19.39,
+     "r_dps": 4.37,
+     "roll_deg": 2.53
+    }
+   }
+  ]
+ },
+ "FLT-00235": {
+  "results": [
+   {
+    "fault": "elevator_stuck",
+    "onset": 167.0,
+    "detected": true,
+    "latency_s": 28.099999999999994,
+    "flight_id": "FLT-00235"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 179.2,
+    "t_detect": 195.1,
+    "t_end": 214.3,
+    "peak_score": 6.316443003405376,
+    "phase_at_detect": "climb",
+    "top_channels": {
+     "elevator_cmd_deg": 9.32,
+     "ekf_pos_innov_m": 0.88,
+     "roll_deg": 0.87,
+     "ekf_hacc_m": 0.79,
+     "ekf_vel_innov_mps": 0.63
+    }
+   },
+   {
+    "t_start": 220.8,
+    "t_detect": 236.7,
+    "t_end": 239.9,
+    "peak_score": 3.4840873228287212,
+    "phase_at_detect": "climb",
+    "top_channels": {
+     "elevator_cmd_deg": 5.22,
+     "airspeed_mps": 1.19,
+     "roll_deg": 1.05,
+     "ekf_pos_innov_m": 0.84,
+     "ekf_vel_innov_mps": 0.77
+    }
+   },
+   {
+    "t_start": 508.8,
+    "t_detect": 524.7,
+    "t_end": 524.7,
+    "peak_score": 3.857486624554507,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "roll_deg": 4.6,
+     "elevator_cmd_deg": 2.66,
+     "ekf_vel_innov_mps": 0.94,
+     "gnss_hdop": 0.83,
+     "ekf_hacc_m": 0.78
+    }
+   },
+   {
+    "t_start": 572.8,
+    "t_detect": 588.7,
+    "t_end": 588.7,
+    "peak_score": 2.970198239752619,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 3.35,
+     "roll_deg": 2.46,
+     "ekf_hacc_m": 0.83,
+     "vz_mps": 0.74,
+     "ekf_vel_innov_mps": 0.7
+    }
+   },
+   {
+    "t_start": 604.8,
+    "t_detect": 620.7,
+    "t_end": 620.7,
+    "peak_score": 3.2968571207000514,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 3.36,
+     "roll_deg": 2.84,
+     "ekf_hacc_m": 0.94,
+     "ekf_pos_innov_m": 0.68,
+     "gnss_hdop": 0.59
+    }
+   },
+   {
+    "t_start": 627.2,
+    "t_detect": 643.1,
+    "t_end": 646.3,
+    "peak_score": 3.166751727155364,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "elevator_cmd_deg": 4.37,
+     "gen_kw": 1.29,
+     "vibe_mps2": 1.15,
+     "roll_deg": 1.09,
+     "motor1_rpm": 0.98
+    }
+   },
+   {
+    "t_start": 643.2,
+    "t_detect": 659.1,
+    "t_end": 675.1,
+    "peak_score": 7.4973693538991055,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.15,
+     "alt_rel_m": 1.35,
+     "ekf_vel_innov_mps": 0.87,
+     "ekf_pos_innov_m": 0.76,
+     "vz_mps": 0.73
+    }
+   },
+   {
+    "t_start": 678.4,
+    "t_detect": 694.3,
+    "t_end": 707.1,
+    "peak_score": 7.1539073769199355,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.09,
+     "roll_deg": 2.67,
+     "ekf_pos_innov_m": 1.04,
+     "alt_rel_m": 0.94,
+     "gnss_hdop": 0.72
+    }
+   },
+   {
+    "t_start": 710.4,
+    "t_detect": 726.3,
+    "t_end": 739.1,
+    "peak_score": 7.717888652399059,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.17,
+     "roll_deg": 2.35,
+     "gen_kw": 1.02,
+     "pitch_deg": 0.8,
+     "ekf_hacc_m": 0.78
+    }
+   },
+   {
+    "t_start": 739.2,
+    "t_detect": 755.1,
+    "t_end": 771.1,
+    "peak_score": 8.089456383165334,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.61,
+     "roll_deg": 2.2,
+     "gen_kw": 0.77,
+     "ekf_pos_innov_m": 0.76,
+     "ekf_hacc_m": 0.76
+    }
+   },
+   {
+    "t_start": 771.2,
+    "t_detect": 787.1,
+    "t_end": 803.1,
+    "peak_score": 8.311131067561634,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.65,
+     "roll_deg": 2.36,
+     "ekf_hacc_m": 0.77,
+     "ekf_pos_innov_m": 0.75,
+     "gnss_nsat": 0.71
+    }
+   },
+   {
+    "t_start": 803.2,
+    "t_detect": 819.1,
+    "t_end": 835.1,
+    "peak_score": 8.247147989828202,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.01,
+     "roll_deg": 2.71,
+     "gnss_hdop": 0.79,
+     "gen_kw": 0.74,
+     "ekf_pos_innov_m": 0.73
+    }
+   },
+   {
+    "t_start": 835.2,
+    "t_detect": 851.1,
+    "t_end": 867.1,
+    "peak_score": 8.46472267512286,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.23,
+     "roll_deg": 2.36,
+     "ekf_hacc_m": 0.78,
+     "ekf_pos_innov_m": 0.77,
+     "gen_kw": 0.76
+    }
+   },
+   {
+    "t_start": 867.2,
+    "t_detect": 883.1,
+    "t_end": 899.1,
+    "peak_score": 8.118503108072703,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.66,
+     "roll_deg": 2.52,
+     "ekf_pos_innov_m": 0.82,
+     "batt_v": 0.81,
+     "ekf_vel_innov_mps": 0.8
+    }
+   },
+   {
+    "t_start": 899.2,
+    "t_detect": 915.1,
+    "t_end": 931.1,
+    "peak_score": 7.833077629995147,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.3,
+     "roll_deg": 2.87,
+     "vz_mps": 0.8,
+     "ekf_hacc_m": 0.78,
+     "ekf_pos_innov_m": 0.77
+    }
+   },
+   {
+    "t_start": 928.0,
+    "t_detect": 943.9,
+    "t_end": 1033.5,
+    "peak_score": 13.250085494077414,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 13.23,
+     "pitch_deg": 3.8,
+     "r_dps": 3.4,
+     "q_dps": 1.49,
+     "roll_deg": 1.15
+    }
+   }
+  ]
+ },
+ "FLT-00239": {
+  "results": [
+   {
+    "fault": "motor_failure",
+    "onset": 320.8,
+    "detected": true,
+    "latency_s": 8.699999999999989,
+    "flight_id": "FLT-00239"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 313.6,
+    "t_detect": 329.5,
+    "t_end": 959.9,
+    "peak_score": 11.557518516749997,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "vibe_mps2": 10.46,
+     "motor2_rpm": 6.77,
+     "ekf_hacc_m": 0.88,
+     "r_dps": 0.82,
+     "roll_deg": 0.76
+    }
+   }
+  ]
+ },
+ "FLT-00247": {
+  "results": [
+   {
+    "fault": "gnss_spoofing",
+    "onset": 355.7,
+    "detected": true,
+    "latency_s": 5.800000000000011,
+    "flight_id": "FLT-00247"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 345.6,
+    "t_detect": 361.5,
+    "t_end": 652.7,
+    "peak_score": 107.69276371169602,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_vel_innov_mps": 46.91,
+     "ekf_pos_innov_m": 17.3,
+     "r_dps": 2.99,
+     "roll_deg": 2.68,
+     "gnss_nsat": 0.79
+    }
+   }
+  ]
+ },
+ "FLT-00248": {
+  "results": [
+   {
+    "fault": "pitot_blockage",
+    "onset": 242.6,
+    "detected": true,
+    "latency_s": 10.099999999999994,
+    "flight_id": "FLT-00248"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 236.8,
+    "t_detect": 252.7,
+    "t_end": 588.7,
+    "peak_score": 17.167771246780898,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "roll_deg": 6.63,
+     "throttle": 5.93,
+     "motor4_rpm": 5.63,
+     "motor1_rpm": 5.56,
+     "motor2_rpm": 5.12
+    }
+   }
+  ]
+ },
+ "FLT-00250": {
+  "results": [
+   {
+    "fault": "generator_dropout",
+    "onset": 406.3,
+    "detected": true,
+    "latency_s": 73.59999999999997,
+    "flight_id": "FLT-00250"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 464.0,
+    "t_detect": 479.9,
+    "t_end": 479.9,
+    "peak_score": 3.319139574109622,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 3.88,
+     "roll_deg": 2.28,
+     "batt_a": 1.87,
+     "batt_v": 1.5,
+     "r_dps": 0.96
+    }
+   }
+  ]
+ },
+ "FLT-00252": {
+  "results": [
+   {
+    "fault": "battery_degradation",
+    "onset": 365.2,
+    "detected": true,
+    "latency_s": 41.10000000000002,
+    "flight_id": "FLT-00252"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 390.4,
+    "t_detect": 406.3,
+    "t_end": 441.5,
+    "peak_score": 3.364900968960436,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "batt_v": 3.97,
+     "r_dps": 2.29,
+     "ekf_hacc_m": 0.81,
+     "ekf_pos_innov_m": 0.76,
+     "ekf_vel_innov_mps": 0.76
+    }
+   },
+   {
+    "t_start": 438.4,
+    "t_detect": 454.3,
+    "t_end": 476.7,
+    "peak_score": 2.8614885286887928,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "batt_v": 3.94,
+     "r_dps": 1.52,
+     "ekf_pos_innov_m": 0.77,
+     "gnss_nsat": 0.74,
+     "ekf_vel_innov_mps": 0.73
+    }
+   },
+   {
+    "t_start": 489.6,
+    "t_detect": 505.5,
+    "t_end": 537.5,
+    "peak_score": 3.0793975722030638,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "batt_v": 3.98,
+     "r_dps": 1.76,
+     "ekf_vel_innov_mps": 0.89,
+     "ekf_pos_innov_m": 0.77,
+     "ekf_hacc_m": 0.64
+    }
+   },
+   {
+    "t_start": 544.0,
+    "t_detect": 559.9,
+    "t_end": 777.5,
+    "peak_score": 4.983353023864754,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "batt_v": 4.38,
+     "r_dps": 3.18,
+     "roll_deg": 2.14,
+     "p_dps": 1.7,
+     "alt_rel_m": 1.03
+    }
+   }
+  ]
+ },
+ "FLT-00253": {
+  "results": [
+   {
+    "fault": "imu_vibration",
+    "onset": 379.0,
+    "detected": true,
+    "latency_s": 4.899999999999977,
+    "flight_id": "FLT-00253"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 368.0,
+    "t_detect": 383.9,
+    "t_end": 956.7,
+    "peak_score": 29.69876997756686,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "vibe_mps2": 29.04,
+     "roll_deg": 1.69,
+     "r_dps": 1.46,
+     "ax_mps2": 1.21,
+     "az_mps2": 0.92
+    }
+   }
+  ]
+ },
+ "FLT-00254": {
+  "results": [
+   {
+    "fault": "motor_failure",
+    "onset": 177.8,
+    "detected": true,
+    "latency_s": 7.699999999999989,
+    "flight_id": "FLT-00254"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 169.6,
+    "t_detect": 185.5,
+    "t_end": 633.5,
+    "peak_score": 17.63569082869163,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "motor3_rpm": 19.06,
+     "vibe_mps2": 8.6,
+     "ax_mps2": 1.22,
+     "batt_a": 1.0,
+     "az_mps2": 0.85
+    }
+   }
+  ]
+ },
+ "FLT-00259": {
+  "results": [
+   {
+    "fault": "gnss_jamming",
+    "onset": 368.4,
+    "detected": true,
+    "latency_s": 5.900000000000034,
+    "flight_id": "FLT-00259"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 358.4,
+    "t_detect": 374.3,
+    "t_end": 499.1,
+    "peak_score": 108.36316681648623,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_hacc_m": 71.03,
+     "gnss_hdop": 66.68,
+     "gnss_nsat": 21.67,
+     "r_dps": 6.94,
+     "roll_deg": 4.66
+    }
+   }
+  ]
+ },
+ "FLT-00263": {
+  "results": [
+   {
+    "fault": "imu_vibration",
+    "onset": 384.0,
+    "detected": true,
+    "latency_s": 6.300000000000011,
+    "flight_id": "FLT-00263"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 374.4,
+    "t_detect": 390.3,
+    "t_end": 707.1,
+    "peak_score": 61.51216627229191,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "vibe_mps2": 73.73,
+     "ax_mps2": 2.94,
+     "az_mps2": 2.31,
+     "r_dps": 2.04,
+     "roll_deg": 1.9
+    }
+   }
+  ]
+ },
+ "FLT-00266": {
+  "results": [
+   {
+    "fault": "battery_degradation",
+    "onset": 219.4,
+    "detected": true,
+    "latency_s": 529.3000000000001,
+    "flight_id": "FLT-00266"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 732.8,
+    "t_detect": 748.7,
+    "t_end": 764.7,
+    "peak_score": 3.702196338675929,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "batt_v": 4.66,
+     "r_dps": 2.2,
+     "ekf_pos_innov_m": 0.87,
+     "gnss_nsat": 0.75,
+     "ekf_vel_innov_mps": 0.71
+    }
+   },
+   {
+    "t_start": 761.6,
+    "t_detect": 777.5,
+    "t_end": 806.3,
+    "peak_score": 3.013728710625873,
+    "phase_at_detect": "approach",
+    "top_channels": {
+     "batt_v": 4.69,
+     "gnss_hdop": 0.87,
+     "ekf_pos_innov_m": 0.83,
+     "r_dps": 0.78,
+     "ekf_vel_innov_mps": 0.75
+    }
+   }
+  ]
+ },
+ "FLT-00267": {
+  "results": [
+   {
+    "fault": "imu_vibration",
+    "onset": 480.6,
+    "detected": true,
+    "latency_s": 5.699999999999989,
+    "flight_id": "FLT-00267"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 470.4,
+    "t_detect": 486.3,
+    "t_end": 950.3,
+    "peak_score": 42.15263041034528,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "vibe_mps2": 43.08,
+     "roll_deg": 1.69,
+     "ax_mps2": 1.55,
+     "r_dps": 1.3,
+     "az_mps2": 1.06
+    }
+   }
+  ]
+ },
+ "FLT-00269": {
+  "results": [
+   {
+    "fault": "generator_dropout",
+    "onset": 144.2,
+    "detected": true,
+    "latency_s": 6.100000000000023,
+    "flight_id": "FLT-00269"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 134.4,
+    "t_detect": 150.3,
+    "t_end": 246.3,
+    "peak_score": 11.670769423043513,
+    "phase_at_detect": "climb",
+    "top_channels": {
+     "gen_kw": 13.24,
+     "batt_a": 2.71,
+     "batt_v": 0.95,
+     "elevator_pos_deg": 0.83,
+     "ekf_vel_innov_mps": 0.78
+    }
+   },
+   {
+    "t_start": 256.0,
+    "t_detect": 271.9,
+    "t_end": 271.9,
+    "peak_score": 2.8232893359258115,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 4.34,
+     "batt_temp_c": 1.2,
+     "batt_a": 0.97,
+     "batt_v": 0.85,
+     "ekf_vel_innov_mps": 0.77
+    }
+   },
+   {
+    "t_start": 374.4,
+    "t_detect": 390.3,
+    "t_end": 409.5,
+    "peak_score": 2.768703572268337,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 3.74,
+     "batt_v": 1.67,
+     "batt_a": 0.93,
+     "ekf_pos_innov_m": 0.85,
+     "ekf_hacc_m": 0.82
+    }
+   },
+   {
+    "t_start": 419.2,
+    "t_detect": 435.1,
+    "t_end": 473.5,
+    "peak_score": 3.2314593313338498,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 3.65,
+     "batt_v": 2.0,
+     "batt_a": 0.93,
+     "ekf_vel_innov_mps": 0.79,
+     "ekf_pos_innov_m": 0.77
+    }
+   },
+   {
+    "t_start": 470.4,
+    "t_detect": 486.3,
+    "t_end": 518.3,
+    "peak_score": 3.3060024157314305,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 3.31,
+     "batt_v": 2.79,
+     "roll_deg": 1.71,
+     "batt_a": 1.19,
+     "ekf_vel_innov_mps": 0.77
+    }
+   }
+  ]
+ },
+ "FLT-00271": {
+  "results": [
+   {
+    "fault": "elevator_stuck",
+    "onset": 99.1,
+    "detected": true,
+    "latency_s": 38.400000000000006,
+    "flight_id": "FLT-00271"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 121.6,
+    "t_detect": 137.5,
+    "t_end": 137.5,
+    "peak_score": 3.379738013668003,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 5.02,
+     "roll_deg": 1.57,
+     "airspeed_mps": 1.04,
+     "ekf_pos_innov_m": 0.88,
+     "ekf_vel_innov_mps": 0.82
+    }
+   },
+   {
+    "t_start": 265.6,
+    "t_detect": 281.5,
+    "t_end": 281.5,
+    "peak_score": 3.1190978771998212,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 3.46,
+     "roll_deg": 2.57,
+     "ekf_pos_innov_m": 0.84,
+     "ekf_hacc_m": 0.82,
+     "gnss_hdop": 0.7
+    }
+   },
+   {
+    "t_start": 329.6,
+    "t_detect": 345.5,
+    "t_end": 345.5,
+    "peak_score": 3.000924754772168,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 3.39,
+     "roll_deg": 2.37,
+     "gnss_hdop": 0.92,
+     "ekf_pos_innov_m": 0.75,
+     "ekf_vel_innov_mps": 0.72
+    }
+   },
+   {
+    "t_start": 489.6,
+    "t_detect": 505.5,
+    "t_end": 511.9,
+    "peak_score": 4.521321012815127,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "elevator_cmd_deg": 6.14,
+     "vz_mps": 1.77,
+     "gen_kw": 1.07,
+     "roll_deg": 0.96,
+     "vibe_mps2": 0.92
+    }
+   },
+   {
+    "t_start": 512.0,
+    "t_detect": 527.9,
+    "t_end": 540.7,
+    "peak_score": 7.321157055675611,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.77,
+     "roll_deg": 1.25,
+     "gen_kw": 1.16,
+     "pitch_deg": 0.95,
+     "ekf_vel_innov_mps": 0.82
+    }
+   },
+   {
+    "t_start": 544.0,
+    "t_detect": 559.9,
+    "t_end": 575.9,
+    "peak_score": 7.447065546299433,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.03,
+     "roll_deg": 2.33,
+     "gen_kw": 1.08,
+     "ekf_pos_innov_m": 0.77,
+     "pitch_deg": 0.72
+    }
+   },
+   {
+    "t_start": 579.2,
+    "t_detect": 595.1,
+    "t_end": 607.9,
+    "peak_score": 6.885028926729921,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.29,
+     "roll_deg": 2.22,
+     "gen_kw": 1.44,
+     "pitch_deg": 0.79,
+     "ekf_pos_innov_m": 0.76
+    }
+   },
+   {
+    "t_start": 608.0,
+    "t_detect": 623.9,
+    "t_end": 732.7,
+    "peak_score": 12.639598383331304,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.83,
+     "roll_deg": 2.07,
+     "gen_kw": 1.26,
+     "ekf_pos_innov_m": 0.78,
+     "ekf_vel_innov_mps": 0.7
+    }
+   }
+  ]
+ },
+ "FLT-00277": {
+  "results": [
+   {
+    "fault": "gnss_jamming",
+    "onset": 196.9,
+    "detected": true,
+    "latency_s": 4.599999999999994,
+    "flight_id": "FLT-00277"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 185.6,
+    "t_detect": 201.5,
+    "t_end": 332.7,
+    "peak_score": 107.73286693959946,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_hacc_m": 61.94,
+     "gnss_hdop": 58.98,
+     "gnss_nsat": 19.9,
+     "r_dps": 3.37,
+     "roll_deg": 2.25
+    }
+   }
+  ]
+ },
+ "FLT-00278": {
+  "results": [
+   {
+    "fault": "battery_degradation",
+    "onset": 399.4,
+    "detected": false,
+    "latency_s": null,
+    "flight_id": "FLT-00278"
+   }
+  ],
+  "events": []
+ },
+ "FLT-00283": {
+  "results": [
+   {
+    "fault": "generator_dropout",
+    "onset": 168.2,
+    "detected": true,
+    "latency_s": 7.700000000000017,
+    "flight_id": "FLT-00283"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 160.0,
+    "t_detect": 175.9,
+    "t_end": 198.3,
+    "peak_score": 8.514181034601991,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 10.06,
+     "batt_a": 3.37,
+     "batt_v": 2.16,
+     "ekf_pos_innov_m": 0.77,
+     "roll_deg": 0.76
+    }
+   },
+   {
+    "t_start": 230.4,
+    "t_detect": 246.3,
+    "t_end": 265.5,
+    "peak_score": 2.875047128505368,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 4.28,
+     "batt_v": 1.26,
+     "batt_a": 1.15,
+     "ekf_pos_innov_m": 0.82,
+     "ekf_hacc_m": 0.78
+    }
+   },
+   {
+    "t_start": 332.8,
+    "t_detect": 348.7,
+    "t_end": 380.7,
+    "peak_score": 2.8865004063504074,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 3.81,
+     "batt_v": 1.83,
+     "batt_a": 0.92,
+     "ekf_pos_innov_m": 0.77,
+     "ekf_vel_innov_mps": 0.71
+    }
+   },
+   {
+    "t_start": 438.4,
+    "t_detect": 454.3,
+    "t_end": 566.3,
+    "peak_score": 4.033928123270991,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "gen_kw": 3.69,
+     "batt_v": 3.04,
+     "batt_a": 1.22,
+     "roll_deg": 0.92,
+     "ekf_pos_innov_m": 0.86
+    }
+   }
+  ]
+ },
+ "FLT-00284": {
+  "results": [
+   {
+    "fault": "elevator_stuck",
+    "onset": 621.0,
+    "detected": true,
+    "latency_s": 70.10000000000002,
+    "flight_id": "FLT-00284"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 675.2,
+    "t_detect": 691.1,
+    "t_end": 691.1,
+    "peak_score": 3.0780108672608226,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 3.32,
+     "roll_deg": 2.52,
+     "ekf_pos_innov_m": 0.85,
+     "ekf_vel_innov_mps": 0.67,
+     "gnss_nsat": 0.61
+    }
+   },
+   {
+    "t_start": 723.2,
+    "t_detect": 739.1,
+    "t_end": 745.5,
+    "peak_score": 4.318657666845778,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "elevator_cmd_deg": 6.07,
+     "vz_mps": 1.31,
+     "p_dps": 0.98,
+     "pitch_deg": 0.89,
+     "gen_kw": 0.84
+    }
+   },
+   {
+    "t_start": 745.6,
+    "t_detect": 761.5,
+    "t_end": 777.5,
+    "peak_score": 7.615370144935984,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.44,
+     "roll_deg": 2.04,
+     "pitch_deg": 0.83,
+     "ekf_pos_innov_m": 0.81,
+     "gnss_hdop": 0.77
+    }
+   },
+   {
+    "t_start": 777.6,
+    "t_detect": 793.5,
+    "t_end": 809.5,
+    "peak_score": 7.061549376582156,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 8.41,
+     "roll_deg": 2.76,
+     "gnss_hdop": 0.89,
+     "ekf_pos_innov_m": 0.78,
+     "ekf_vel_innov_mps": 0.75
+    }
+   },
+   {
+    "t_start": 809.6,
+    "t_detect": 825.5,
+    "t_end": 841.5,
+    "peak_score": 7.452349831894963,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 8.35,
+     "roll_deg": 2.76,
+     "ekf_pos_innov_m": 0.8,
+     "gnss_hdop": 0.74,
+     "ekf_hacc_m": 0.71
+    }
+   },
+   {
+    "t_start": 841.6,
+    "t_detect": 857.5,
+    "t_end": 873.5,
+    "peak_score": 7.505545574136221,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.08,
+     "roll_deg": 1.72,
+     "ekf_hacc_m": 0.93,
+     "pitch_deg": 0.76,
+     "ekf_vel_innov_mps": 0.72
+    }
+   },
+   {
+    "t_start": 873.6,
+    "t_detect": 889.5,
+    "t_end": 905.5,
+    "peak_score": 7.353143460408626,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.08,
+     "roll_deg": 1.9,
+     "vz_mps": 0.82,
+     "ekf_vel_innov_mps": 0.75,
+     "ekf_pos_innov_m": 0.72
+    }
+   },
+   {
+    "t_start": 905.6,
+    "t_detect": 921.5,
+    "t_end": 937.5,
+    "peak_score": 8.287012330994068,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.8,
+     "roll_deg": 2.67,
+     "vz_mps": 0.97,
+     "ekf_pos_innov_m": 0.9,
+     "ekf_hacc_m": 0.78
+    }
+   },
+   {
+    "t_start": 937.6,
+    "t_detect": 953.5,
+    "t_end": 969.5,
+    "peak_score": 8.08800812997527,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.93,
+     "roll_deg": 1.84,
+     "ekf_pos_innov_m": 0.84,
+     "pitch_deg": 0.82,
+     "motor1_rpm": 0.79
+    }
+   },
+   {
+    "t_start": 969.6,
+    "t_detect": 985.5,
+    "t_end": 1084.7,
+    "peak_score": 13.32872430858207,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.6,
+     "roll_deg": 1.91,
+     "pitch_deg": 1.07,
+     "r_dps": 0.87,
+     "ekf_pos_innov_m": 0.83
+    }
+   }
+  ]
+ },
+ "FLT-00290": {
+  "results": [
+   {
+    "fault": "gnss_spoofing",
+    "onset": 376.1,
+    "detected": true,
+    "latency_s": 4.599999999999966,
+    "flight_id": "FLT-00290"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 364.8,
+    "t_detect": 380.7,
+    "t_end": 854.3,
+    "peak_score": 107.01285818649586,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_vel_innov_mps": 39.41,
+     "ekf_pos_innov_m": 12.99,
+     "roll_deg": 2.24,
+     "r_dps": 2.18,
+     "ekf_hacc_m": 0.66
+    }
+   }
+  ]
+ },
+ "FLT-00291": {
+  "results": [
+   {
+    "fault": "elevator_stuck",
+    "onset": 594.6,
+    "detected": true,
+    "latency_s": 19.699999999999932,
+    "flight_id": "FLT-00291"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 598.4,
+    "t_detect": 614.3,
+    "t_end": 614.3,
+    "peak_score": 2.9697965259575296,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 3.72,
+     "roll_deg": 1.98,
+     "gen_kw": 0.95,
+     "ekf_vel_innov_mps": 0.86,
+     "batt_temp_c": 0.75
+    }
+   },
+   {
+    "t_start": 668.8,
+    "t_detect": 684.7,
+    "t_end": 684.7,
+    "peak_score": 3.367659828600156,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "elevator_cmd_deg": 4.6,
+     "roll_deg": 1.96,
+     "gen_kw": 1.45,
+     "ax_mps2": 1.23,
+     "vibe_mps2": 1.2
+    }
+   },
+   {
+    "t_start": 688.0,
+    "t_detect": 703.9,
+    "t_end": 716.7,
+    "peak_score": 8.18205836633618,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.44,
+     "roll_deg": 1.43,
+     "pitch_deg": 1.02,
+     "ekf_pos_innov_m": 0.87,
+     "gen_kw": 0.81
+    }
+   },
+   {
+    "t_start": 720.0,
+    "t_detect": 735.9,
+    "t_end": 748.7,
+    "peak_score": 8.003504591036771,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 9.59,
+     "roll_deg": 2.05,
+     "ekf_pos_innov_m": 0.8,
+     "ekf_vel_innov_mps": 0.72,
+     "gnss_nsat": 0.71
+    }
+   },
+   {
+    "t_start": 752.0,
+    "t_detect": 767.9,
+    "t_end": 780.7,
+    "peak_score": 7.687312623620498,
+    "phase_at_detect": "descent",
+    "top_channels": {
+     "elevator_cmd_deg": 9.79,
+     "roll_deg": 2.21,
+     "ekf_pos_innov_m": 0.9,
+     "ekf_hacc_m": 0.74,
+     "gnss_nsat": 0.73
+    }
+   },
+   {
+    "t_start": 784.0,
+    "t_detect": 799.9,
+    "t_end": 812.7,
+    "peak_score": 8.026527047206956,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 10.96,
+     "roll_deg": 1.42,
+     "gen_kw": 1.33,
+     "batt_v": 0.87,
+     "ekf_pos_innov_m": 0.85
+    }
+   },
+   {
+    "t_start": 812.8,
+    "t_detect": 828.7,
+    "t_end": 908.7,
+    "peak_score": 13.176298341451592,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "elevator_cmd_deg": 11.74,
+     "pitch_deg": 3.61,
+     "r_dps": 3.05,
+     "q_dps": 1.56,
+     "roll_deg": 0.82
+    }
+   }
+  ]
+ },
+ "FLT-00294": {
+  "results": [
+   {
+    "fault": "gnss_spoofing",
+    "onset": 483.8,
+    "detected": true,
+    "latency_s": 5.699999999999989,
+    "flight_id": "FLT-00294"
+   }
+  ],
+  "events": [
+   {
+    "t_start": 473.6,
+    "t_detect": 489.5,
+    "t_end": 713.5,
+    "peak_score": 115.97305586771753,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "ekf_vel_innov_mps": 58.85,
+     "ekf_pos_innov_m": 20.16,
+     "roll_deg": 2.71,
+     "r_dps": 2.7,
+     "ekf_hacc_m": 0.76
+    }
+   }
+  ]
+ },
+ "FLT-00029": {
+  "results": [],
+  "events": []
+ },
+ "FLT-00104": {
+  "results": [],
+  "events": []
+ },
+ "FLT-00109": {
+  "results": [],
+  "events": []
+ },
+ "FLT-00111": {
+  "results": [],
+  "events": []
+ },
+ "FLT-00129": {
+  "results": [],
+  "events": []
+ },
+ "FLT-00138": {
+  "results": [],
+  "events": [
+   {
+    "t_start": 211.2,
+    "t_detect": 227.1,
+    "t_end": 236.7,
+    "peak_score": 3.7713402045671436,
+    "phase_at_detect": "cruise",
+    "top_channels": {
+     "pitch_deg": 3.15,
+     "batt_v": 2.83,
+     "throttle": 1.32,
+     "vibe_mps2": 1.29,
+     "motor4_rpm": 1.28
+    }
+   }
+  ]
+ },
+ "FLT-00168": {
+  "results": [],
+  "events": []
+ },
+ "FLT-00184": {
+  "results": [],
+  "events": []
+ },
+ "FLT-00188": {
+  "results": [],
+  "events": []
+ },
+ "FLT-00196": {
+  "results": [],
+  "events": []
+ },
+ "FLT-00207": {
+  "results": [],
+  "events": []
+ },
+ "FLT-00224": {
+  "results": [],
+  "events": []
+ },
+ "FLT-00238": {
+  "results": [],
+  "events": []
+ },
+ "FLT-00255": {
+  "results": [],
+  "events": []
+ },
+ "FLT-00256": {
+  "results": [],
+  "events": []
+ },
+ "FLT-00258": {
+  "results": [],
+  "events": []
+ },
+ "FLT-00262": {
+  "results": [],
+  "events": []
+ },
+ "FLT-00274": {
+  "results": [],
+  "events": []
+ },
+ "FLT-00275": {
+  "results": [],
+  "events": []
+ }
+}

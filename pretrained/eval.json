@@ -1,0 +1,185 @@
+{
+  "ssl_crosschannel": {
+    "summary": {
+      "faults": 103,
+      "recall": 0.942,
+      "median_latency_s": 8.7,
+      "false_alarms": 3,
+      "false_alarms_per_hour": 0.222,
+      "event_precision": 0.97,
+      "exposure_hours": 13.53
+    },
+    "by_fault": [
+      {
+        "fault": "battery_degradation",
+        "n": 17,
+        "recall": 0.647,
+        "median_latency_s": 64.3
+      },
+      {
+        "fault": "elevator_stuck",
+        "n": 14,
+        "recall": 1.0,
+        "median_latency_s": 24.8
+      },
+      {
+        "fault": "generator_dropout",
+        "n": 14,
+        "recall": 1.0,
+        "median_latency_s": 50.4
+      },
+      {
+        "fault": "gnss_jamming",
+        "n": 16,
+        "recall": 1.0,
+        "median_latency_s": 4.85
+      },
+      {
+        "fault": "gnss_spoofing",
+        "n": 13,
+        "recall": 1.0,
+        "median_latency_s": 5.7
+      },
+      {
+        "fault": "imu_vibration",
+        "n": 10,
+        "recall": 1.0,
+        "median_latency_s": 5.5
+      },
+      {
+        "fault": "motor_failure",
+        "n": 7,
+        "recall": 1.0,
+        "median_latency_s": 8.4
+      },
+      {
+        "fault": "pitot_blockage",
+        "n": 12,
+        "recall": 1.0,
+        "median_latency_s": 10.35
+      }
+    ]
+  },
+  "zscore": {
+    "summary": {
+      "faults": 103,
+      "recall": 0.33,
+      "median_latency_s": 31.85,
+      "false_alarms": 0,
+      "false_alarms_per_hour": 0.0,
+      "event_precision": 1.0,
+      "exposure_hours": 13.53
+    },
+    "by_fault": [
+      {
+        "fault": "battery_degradation",
+        "n": 17,
+        "recall": 0.0,
+        "median_latency_s": NaN
+      },
+      {
+        "fault": "elevator_stuck",
+        "n": 14,
+        "recall": 0.143,
+        "median_latency_s": 433.4
+      },
+      {
+        "fault": "generator_dropout",
+        "n": 14,
+        "recall": 0.071,
+        "median_latency_s": 460.4
+      },
+      {
+        "fault": "gnss_jamming",
+        "n": 16,
+        "recall": 1.0,
+        "median_latency_s": 17.6
+      },
+      {
+        "fault": "gnss_spoofing",
+        "n": 13,
+        "recall": 0.769,
+        "median_latency_s": 237.5
+      },
+      {
+        "fault": "imu_vibration",
+        "n": 10,
+        "recall": 0.3,
+        "median_latency_s": 552.1
+      },
+      {
+        "fault": "motor_failure",
+        "n": 7,
+        "recall": 0.286,
+        "median_latency_s": 312.05
+      },
+      {
+        "fault": "pitot_blockage",
+        "n": 12,
+        "recall": 0.0,
+        "median_latency_s": NaN
+      }
+    ]
+  },
+  "iforest": {
+    "summary": {
+      "faults": 103,
+      "recall": 0.233,
+      "median_latency_s": 20.25,
+      "false_alarms": 3,
+      "false_alarms_per_hour": 0.222,
+      "event_precision": 0.889,
+      "exposure_hours": 13.53
+    },
+    "by_fault": [
+      {
+        "fault": "battery_degradation",
+        "n": 17,
+        "recall": 0.176,
+        "median_latency_s": 197.9
+      },
+      {
+        "fault": "elevator_stuck",
+        "n": 14,
+        "recall": 0.0,
+        "median_latency_s": NaN
+      },
+      {
+        "fault": "generator_dropout",
+        "n": 14,
+        "recall": 0.143,
+        "median_latency_s": 96.0
+      },
+      {
+        "fault": "gnss_jamming",
+        "n": 16,
+        "recall": 0.188,
+        "median_latency_s": 19.1
+      },
+      {
+        "fault": "gnss_spoofing",
+        "n": 13,
+        "recall": 0.0,
+        "median_latency_s": NaN
+      },
+      {
+        "fault": "imu_vibration",
+        "n": 10,
+        "recall": 0.3,
+        "median_latency_s": 354.2
+      },
+      {
+        "fault": "motor_failure",
+        "n": 7,
+        "recall": 0.143,
+        "median_latency_s": 96.3
+      },
+      {
+        "fault": "pitot_blockage",
+        "n": 12,
+        "recall": 1.0,
+        "median_latency_s": 14.0
+      }
+    ]
+  }
+}
